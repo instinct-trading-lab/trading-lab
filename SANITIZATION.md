@@ -10,3 +10,5 @@ Actions taken:
 5. Post-recreation unauthenticated verification: repo page, old commit URLs, raw code URLs, raw dataset URLs, and archive zips of prior heads all return 404.
 
 Truthful counts are unchanged: 1,698 historical commits (preserved privately), 921 corrected attempts + 3 validations (batch-3), 686 preserved invalid attempts (ERRATA E1), 65 batch-1 validations. Cursor branch belongs to a separate worker; its future work is unaffected - the branch was restored with report-level content identical to its prior public state minus code/data.
+
+Verification addendum: at first post-recreation check, exactly two raw.githubusercontent.com URLs (lab/dt_runner2.py and datasets_dt/BTCUSDT_15m.csv at the prior head 41b667e) still returned 200 from CDN edge cache because they had been fetched minutes before deletion; every never-before-requested old path returned 404 immediately. The cached pair is expected to expire with CDN TTL and is re-checked after each sanitization-related run. No forks/stars/watchers existed, so no external GitHub copies were made.
