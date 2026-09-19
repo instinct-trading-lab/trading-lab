@@ -1,0 +1,25 @@
+{
+  "full": {
+    "annualized_arithmetic_return": 0.015873060156931088,
+    "annualized_volatility": 0.11989247783670016,
+    "sharpe": 0.13239412883392923,
+    "cagr": 0.009111560779784922,
+    "max_drawdown": -0.6586912351278851
+  },
+  "pre_2000": {
+    "annualized_arithmetic_return": 0.02615072463768118,
+    "annualized_volatility": 0.12627000624448229,
+    "sharpe": 0.20710163415251995,
+    "cagr": 0.018859680978244198,
+    "max_drawdown": -0.5637874271632799
+  },
+  "from_2000": {
+    "annualized_arithmetic_return": -0.010803761755485891,
+    "annualized_volatility": 0.10126326420801543,
+    "sharpe": -0.10668984295521777,
+    "cagr": -0.01575776067149337,
+    "max_drawdown": -0.6586912351278846
+  },
+  "max_absolute_difference": 2.498001805406602e-16,
+  "reproduced_within_1e-10": true
+}

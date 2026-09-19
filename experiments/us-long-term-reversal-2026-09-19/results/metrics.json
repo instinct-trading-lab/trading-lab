@@ -1,0 +1,48 @@
+{
+  "run_completed_utc": "2026-09-19T08:27:50.464615+00:00",
+  "assumed_cost_per_month": 0.0015,
+  "cost_is_measured_from_holdings": false,
+  "full": {
+    "months": 1147,
+    "start": "193101",
+    "end": "202607",
+    "annualized_arithmetic_return": 0.01587306015693112,
+    "annualized_volatility": 0.11989247783670019,
+    "sharpe": 0.13239412883392948,
+    "cagr": 0.009111560779784922,
+    "max_drawdown": -0.6586912351278851,
+    "mean_monthly_net_return": 0.0013227550130775932,
+    "terminal_wealth": 2.3796885052201318
+  },
+  "pre_2000": {
+    "months": 828,
+    "start": "193101",
+    "end": "199912",
+    "annualized_arithmetic_return": 0.026150724637681155,
+    "annualized_volatility": 0.1262700062444822,
+    "sharpe": 0.2071016341525199,
+    "cagr": 0.018859680978244198,
+    "max_drawdown": -0.5637874271632799,
+    "mean_monthly_net_return": 0.002179227053140096,
+    "terminal_wealth": 3.629877510527698
+  },
+  "from_2000": {
+    "months": 319,
+    "start": "200001",
+    "end": "202607",
+    "annualized_arithmetic_return": -0.010803761755485902,
+    "annualized_volatility": 0.10126326420801544,
+    "sharpe": -0.10668984295521786,
+    "cagr": -0.01575776067149337,
+    "max_drawdown": -0.6586912351278846,
+    "mean_monthly_net_return": -0.0009003134796238251,
+    "terminal_wealth": 0.6555836934768041
+  },
+  "gates": {
+    "full_sharpe_gte_0_50": false,
+    "from_2000_sharpe_gte_0_40": false,
+    "positive_mean_both_subsamples": false,
+    "full_max_drawdown_gte_minus_0_60": false
+  },
+  "verdict": "REJECT"
+}

@@ -1,0 +1,10 @@
+{
+  "member": "F-F_LT_Reversal_Factor.csv",
+  "observed_header": [
+    "",
+    "LT_Rev"
+  ],
+  "selected_value_index": 1,
+  "first_month": "193101",
+  "last_month": "202607"
+}

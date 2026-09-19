@@ -1,0 +1,3 @@
+Kenneth R. French Data Library
+Dataset: Long-Term Reversal Factor, monthly CSV archive
+URL: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_LT_Reversal_Factor_CSV.zip
