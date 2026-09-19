@@ -1,0 +1,50 @@
+{
+ "r10000": {
+  "i": 0,
+  "series": "r1",
+  "class": "orb",
+  "symbol": "BTCUSDT",
+  "cost_bp": 0,
+  "verdict": "FAIL",
+  "psr": 0.842075,
+  "repro": true,
+  "sha": "992b7693a55757ee82cc1734803f0b9f59efa09c",
+  "sharpe": 0.703097
+ },
+ "r10001": {
+  "i": 1,
+  "series": "r1",
+  "class": "orb",
+  "symbol": "BTCUSDT",
+  "cost_bp": 0,
+  "verdict": "FAIL",
+  "psr": 0.016158,
+  "repro": true,
+  "sha": "373c0ba7cc375cf6a98c4385cd571f56d3c9687a",
+  "sharpe": -1.499264
+ },
+ "r10002": {
+  "i": 2,
+  "series": "r1",
+  "class": "orb",
+  "symbol": "BTCUSDT",
+  "cost_bp": 0,
+  "verdict": "FAIL",
+  "psr": 0.06797,
+  "repro": true,
+  "sha": "d17fd03d8af61e30a05092904715186a7b7b91d7",
+  "sharpe": -1.139653
+ },
+ "r10003": {
+  "i": 3,
+  "series": "r1",
+  "class": "orb",
+  "symbol": "BTCUSDT",
+  "cost_bp": 0,
+  "verdict": "FAIL",
+  "psr": 0.90068,
+  "repro": true,
+  "sha": "f237134195ad2b01dc5c55d35284d3033cb48193",
+  "sharpe": 0.897835
+ }
+}

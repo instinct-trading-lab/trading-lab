@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20734",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "sweep",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:54:08+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "AVAXUSDT"
+ },
+ "original_commit": "55cb6f05cd8dc4b4588cd7f42c3bcd67f29a8762 2026-09-19T12:54:09+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.0,
+  "stats": {
+   "ann_arith_return": -1.183581,
+   "ann_vol": 0.232003,
+   "max_drawdown": -0.911883,
+   "mean_daily_net": -0.00324269,
+   "n_days": 731,
+   "sharpe": -5.101567,
+   "total_return": -0.911883
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

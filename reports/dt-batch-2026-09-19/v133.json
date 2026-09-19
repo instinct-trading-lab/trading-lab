@@ -1,0 +1,40 @@
+{
+ "identity": {
+  "attempt_id": "v133",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "pdbreak",
+  "cost_bp": 5,
+  "note": "Predeclared validation of exploration survivor on untouched 2026+ data. Committed pass or fail.",
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T12:04:08+03:00",
+  "symbol": "ETHUSDT",
+  "validation_of": "dt133",
+  "window": {
+   "note": "Untouched during batch scoring. Only exploration survivors receive one predeclared validation attempt each, committed pass or fail.",
+   "start_utc": "2026-01-01T00:00:00Z"
+  }
+ },
+ "original_commit": "4e176cfd83c4a9f41fb6a2c854b610481adc5734 2026-09-19T12:07:16+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": true,
+   "mean_ok": true,
+   "sharpe_ok": true
+  },
+  "stats": {
+   "ann_arith_return": 2.620512,
+   "ann_vol": 0.484522,
+   "max_drawdown": -0.159698,
+   "mean_daily_net": 0.00717949,
+   "n_days": 262,
+   "sharpe": 5.408454,
+   "total_return": 5.007547
+  },
+  "verdict": "PASS",
+  "window": {
+   "note": "Untouched during batch scoring. Only exploration survivors receive one predeclared validation attempt each, committed pass or fail.",
+   "start_utc": "2026-01-01T00:00:00Z"
+  }
+ }
+}

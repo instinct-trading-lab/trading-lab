@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt161",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "pdbreak",
+  "cost_bp": 10,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T12:01:21+03:00",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "c7795cab99f32ba2e49b3ef22b6a9bac36c24c73 2026-09-19T12:01:23+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": true,
+   "sharpe_ok": true
+  },
+  "stats": {
+   "ann_arith_return": 0.989038,
+   "ann_vol": 0.384977,
+   "max_drawdown": -0.284071,
+   "mean_daily_net": 0.00270969,
+   "n_days": 731,
+   "sharpe": 2.569081,
+   "total_return": 5.239667
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

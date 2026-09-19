@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20085",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:23:25+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "6c6bdc68b6eaf2aa499480c1037b84b8fa0b8b79 2026-09-19T12:23:26+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 1.0,
+  "stats": {
+   "ann_arith_return": 2.531639,
+   "ann_vol": 0.557146,
+   "max_drawdown": -0.212525,
+   "mean_daily_net": 0.006936,
+   "n_days": 731,
+   "sharpe": 4.543944,
+   "total_return": 114.60446
+  },
+  "verdict": "PASS",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

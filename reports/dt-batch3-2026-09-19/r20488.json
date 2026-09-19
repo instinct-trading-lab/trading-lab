@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20488",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "emax",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:47:29+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "DOGEUSDT"
+ },
+ "original_commit": "fd67c85c22634bfea4488b52b2f95575d83ffd94 2026-09-19T12:47:30+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.255583,
+  "stats": {
+   "ann_arith_return": -0.45183,
+   "ann_vol": 0.96839,
+   "max_drawdown": -0.863875,
+   "mean_daily_net": -0.00123789,
+   "n_days": 731,
+   "sharpe": -0.466579,
+   "total_return": -0.841504
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

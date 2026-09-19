@@ -1,0 +1,52 @@
+[
+ {
+  "id": "dt000",
+  "verdict": "PASS",
+  "sha": "3a24e1a6a30f3b098e3bcbeea9b07d05022847df",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt000",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:57:59+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.292203,
+   "ann_vol": 0.40751,
+   "sharpe": 3.170968,
+   "total_return": 10.245977,
+   "max_drawdown": -0.17282,
+   "mean_daily_net": 0.00354028
+  }
+ },
+ {
+  "id": "dt001",
+  "verdict": "FAIL",
+  "sha": "6f95e90d70d79fec5df777530bc8d7c5dbea16b3",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt001",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:00+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.407969,
+   "ann_vol": 0.412442,
+   "sharpe": 0.989153,
+   "total_return": 0.907742,
+   "max_drawdown": -0.383507,
+   "mean_daily_net": 0.00111772
+  }
+ }
+]

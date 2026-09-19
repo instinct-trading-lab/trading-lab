@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt207",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "orb",
+  "cost_bp": 5,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T12:02:19+03:00",
+  "symbol": "SOLUSDT"
+ },
+ "original_commit": "ba528dcb3d02b19fea5724afae29feb78368b3ca 2026-09-19T12:02:20+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": true,
+   "sharpe_ok": false
+  },
+  "stats": {
+   "ann_arith_return": 0.642975,
+   "ann_vol": 0.731037,
+   "max_drawdown": -0.547662,
+   "mean_daily_net": 0.00176158,
+   "n_days": 731,
+   "sharpe": 0.879538,
+   "total_return": 1.108848
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20711",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:53:35+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "AVAXUSDT"
+ },
+ "original_commit": "c701f12ea1aea2d29aa59fe4b3d226e447e536dc 2026-09-19T12:53:36+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.361916,
+  "stats": {
+   "ann_arith_return": -0.188953,
+   "ann_vol": 0.755313,
+   "max_drawdown": -0.67812,
+   "mean_daily_net": -0.00051768,
+   "n_days": 731,
+   "sharpe": -0.250165,
+   "total_return": -0.613227
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

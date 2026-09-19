@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20317",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:29:46+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ADAUSDT"
+ },
+ "original_commit": "ff90c8d0238314fbc9afa6ec801d1ea367c4c16a 2026-09-19T12:29:46+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.020104,
+  "stats": {
+   "ann_arith_return": -0.632925,
+   "ann_vol": 0.433947,
+   "max_drawdown": -0.831159,
+   "mean_daily_net": -0.00173404,
+   "n_days": 731,
+   "sharpe": -1.458531,
+   "total_return": -0.767838
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

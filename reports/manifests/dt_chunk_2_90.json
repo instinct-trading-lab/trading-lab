@@ -1,0 +1,2199 @@
+[
+ {
+  "id": "dt002",
+  "verdict": "PASS",
+  "sha": "4b588c916c738dc25ce5c0e61d44f992dd74cb30",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt002",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:04+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.700171,
+   "ann_vol": 0.27054,
+   "sharpe": 6.284357,
+   "total_return": 26.845798,
+   "max_drawdown": -0.034137,
+   "mean_daily_net": 0.004658
+  }
+ },
+ {
+  "id": "dt003",
+  "verdict": "PASS",
+  "sha": "6d54faf7fb68409b2a0ad6adb5eadabd4ec72292",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt003",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:05+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.309311,
+   "ann_vol": 0.390332,
+   "sharpe": 3.354349,
+   "total_return": 10.796471,
+   "max_drawdown": -0.202935,
+   "mean_daily_net": 0.00358715
+  }
+ },
+ {
+  "id": "dt004",
+  "verdict": "FAIL",
+  "sha": "93ae9e02bcee8bc24173d3ac964ce4c09f5b37de",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt004",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:07+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.59268,
+   "ann_vol": 0.38134,
+   "sharpe": 1.554205,
+   "total_return": 1.830459,
+   "max_drawdown": -0.337556,
+   "mean_daily_net": 0.00162378
+  }
+ },
+ {
+  "id": "dt005",
+  "verdict": "PASS",
+  "sha": "96845abd71088f700e6b221c1c854918f3f6840c",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt005",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:08+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.901992,
+   "ann_vol": 0.304158,
+   "sharpe": 6.253312,
+   "total_return": 39.856662,
+   "max_drawdown": -0.046301,
+   "mean_daily_net": 0.00521094
+  }
+ },
+ {
+  "id": "dt006",
+  "verdict": "PASS",
+  "sha": "0e2ba7890db700c396f9ec9906804eea79e1f866",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt006",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:09+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.222865,
+   "ann_vol": 0.370151,
+   "sharpe": 3.303688,
+   "total_return": 9.07461,
+   "max_drawdown": -0.153674,
+   "mean_daily_net": 0.00335031
+  }
+ },
+ {
+  "id": "dt007",
+  "verdict": "PASS",
+  "sha": "ee7c3addb28ba39f2375ca3cfcd9c96360d0b7df",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt007",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:11+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.800387,
+   "ann_vol": 0.342115,
+   "sharpe": 2.339529,
+   "total_return": 3.412644,
+   "max_drawdown": -0.158897,
+   "mean_daily_net": 0.00219284
+  }
+ },
+ {
+  "id": "dt008",
+  "verdict": "PASS",
+  "sha": "7d8f0cb05b781db45a96046d8c8f8acfd895c21d",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt008",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:12+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.023252,
+   "ann_vol": 0.320986,
+   "sharpe": 6.303234,
+   "total_return": 50.470976,
+   "max_drawdown": -0.072332,
+   "mean_daily_net": 0.00554316
+  }
+ },
+ {
+  "id": "dt009",
+  "verdict": "PASS",
+  "sha": "858dc2514b90639142cb4154951eab9eed5f8a46",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt009",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:13+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.265613,
+   "ann_vol": 0.209966,
+   "sharpe": 1.26503,
+   "total_return": 0.628193,
+   "max_drawdown": -0.210284,
+   "mean_daily_net": 0.00072771
+  }
+ },
+ {
+  "id": "dt010",
+  "verdict": "PASS",
+  "sha": "891a669f7cb407e4bf21da2e5f280632da87fcd9",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt010",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:14+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.305654,
+   "ann_vol": 0.262031,
+   "sharpe": 1.166481,
+   "total_return": 0.721153,
+   "max_drawdown": -0.234159,
+   "mean_daily_net": 0.00083741
+  }
+ },
+ {
+  "id": "dt011",
+  "verdict": "FAIL",
+  "sha": "a27bc4f9bb5a0bba68104d503fab16b8c6b8733c",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt011",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:16+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.255864,
+   "ann_vol": 0.322632,
+   "sharpe": 0.793054,
+   "total_return": 0.50404,
+   "max_drawdown": -0.334104,
+   "mean_daily_net": 0.000701
+  }
+ },
+ {
+  "id": "dt012",
+  "verdict": "FAIL",
+  "sha": "0b1465afe15005dcabaa3b590280fc518f786192",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt012",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:17+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.070798,
+   "ann_vol": 0.14339,
+   "sharpe": -0.493744,
+   "total_return": -0.149884,
+   "max_drawdown": -0.2585,
+   "mean_daily_net": -0.00019397
+  }
+ },
+ {
+  "id": "dt013",
+  "verdict": "FAIL",
+  "sha": "fcb52280da6b6a6d4c9a192d0a262abda4ba4f78",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt013",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:18+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.030367,
+   "ann_vol": 0.204594,
+   "sharpe": -0.148425,
+   "total_return": -0.097762,
+   "max_drawdown": -0.222387,
+   "mean_daily_net": -8.32e-05
+  }
+ },
+ {
+  "id": "dt014",
+  "verdict": "FAIL",
+  "sha": "56bc2358182710e7f18888cefcdc2ee7fcd9db10",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt014",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:19+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.218595,
+   "ann_vol": 0.249552,
+   "sharpe": -0.87595,
+   "total_return": -0.393578,
+   "max_drawdown": -0.496928,
+   "mean_daily_net": -0.00059889
+  }
+ },
+ {
+  "id": "dt015",
+  "verdict": "PASS",
+  "sha": "186a3839f63b0fdedc2303cf949500bc44ad2fd5",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt015",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:21+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.955603,
+   "ann_vol": 0.290989,
+   "sharpe": 3.283982,
+   "total_return": 5.223846,
+   "max_drawdown": -0.128575,
+   "mean_daily_net": 0.00261809
+  }
+ },
+ {
+  "id": "dt016",
+  "verdict": "PASS",
+  "sha": "40cc3d6813df7ceebc55c9ba01c94fbfc1376c9e",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt016",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:23+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.710196,
+   "ann_vol": 0.259021,
+   "sharpe": 2.741845,
+   "total_return": 2.872898,
+   "max_drawdown": -0.16932,
+   "mean_daily_net": 0.00194574
+  }
+ },
+ {
+  "id": "dt017",
+  "verdict": "PASS",
+  "sha": "b74828c78d293c8e0790ae605917d78f5a0b9463",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt017",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:24+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.665799,
+   "ann_vol": 0.350767,
+   "sharpe": 4.749016,
+   "total_return": 23.725247,
+   "max_drawdown": -0.122239,
+   "mean_daily_net": 0.00456383
+  }
+ },
+ {
+  "id": "dt018",
+  "verdict": "FAIL",
+  "sha": "d5c559f0b01a7ed41de02b32c5476755e6cf7e49",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt018",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:26+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.062351,
+   "ann_vol": 0.414967,
+   "sharpe": -2.560088,
+   "total_return": -0.900152,
+   "max_drawdown": -0.906904,
+   "mean_daily_net": -0.00291055
+  }
+ },
+ {
+  "id": "dt019",
+  "verdict": "FAIL",
+  "sha": "05026b12479f0b7bca14b51d640e4629092b535a",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt019",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:27+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.74739,
+   "ann_vol": 0.465797,
+   "sharpe": -1.604541,
+   "total_return": -0.819947,
+   "max_drawdown": -0.824866,
+   "mean_daily_net": -0.00204764
+  }
+ },
+ {
+  "id": "dt020",
+  "verdict": "FAIL",
+  "sha": "563b9e68826aee8f9d5ec34e238a5541f3717a19",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt020",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:28+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.195967,
+   "ann_vol": 0.398062,
+   "sharpe": 0.492304,
+   "total_return": 0.264266,
+   "max_drawdown": -0.413953,
+   "mean_daily_net": 0.0005369
+  }
+ },
+ {
+  "id": "dt021",
+  "verdict": "FAIL",
+  "sha": "af06c4e63cebfc79b5a738437cd5741494a919ba",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt021",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:29+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.113141,
+   "ann_vol": 0.43176,
+   "sharpe": -0.262045,
+   "total_return": -0.338606,
+   "max_drawdown": -0.504214,
+   "mean_daily_net": -0.00030997
+  }
+ },
+ {
+  "id": "dt022",
+  "verdict": "FAIL",
+  "sha": "a43ac41651c75d4910cdc739cccf5ca79fb7aa32",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt022",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:29+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.081291,
+   "ann_vol": 0.403929,
+   "sharpe": 0.20125,
+   "total_return": -0.000955,
+   "max_drawdown": -0.550078,
+   "mean_daily_net": 0.00022271
+  }
+ },
+ {
+  "id": "dt023",
+  "verdict": "FAIL",
+  "sha": "55ab0d9e4d8b92a4307a9463ad4bda3a936687b8",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt023",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:30+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.117357,
+   "ann_vol": 0.427573,
+   "sharpe": 0.274473,
+   "total_return": 0.053689,
+   "max_drawdown": -0.401708,
+   "mean_daily_net": 0.00032153
+  }
+ },
+ {
+  "id": "dt024",
+  "verdict": "PASS",
+  "sha": "65b9214996ebd75febf4353641f56fd452f0d6a7",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt024",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:31+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.48807,
+   "ann_vol": 0.215952,
+   "sharpe": 2.260081,
+   "total_return": 1.534526,
+   "max_drawdown": -0.211882,
+   "mean_daily_net": 0.00133718
+  }
+ },
+ {
+  "id": "dt025",
+  "verdict": "FAIL",
+  "sha": "954811b45c20e79dcd930c3e53beadc019ae9fd0",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt025",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:32+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.422267,
+   "ann_vol": 0.258727,
+   "sharpe": 1.632094,
+   "total_return": 1.177379,
+   "max_drawdown": -0.264632,
+   "mean_daily_net": 0.0011569
+  }
+ },
+ {
+  "id": "dt026",
+  "verdict": "PASS",
+  "sha": "842d6ed603dc96dbe19f22f7f3408fca20ccb768",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt026",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:33+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.948221,
+   "ann_vol": 0.266793,
+   "sharpe": 3.554141,
+   "total_return": 5.203371,
+   "max_drawdown": -0.141294,
+   "mean_daily_net": 0.00259787
+  }
+ },
+ {
+  "id": "dt027",
+  "verdict": "PASS",
+  "sha": "9e6b096af39a880b2ccfc672d8a54fdfa5f7031f",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt027",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:34+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.520621,
+   "ann_vol": 0.30997,
+   "sharpe": 1.679588,
+   "total_return": 1.573145,
+   "max_drawdown": -0.207946,
+   "mean_daily_net": 0.00142636
+  }
+ },
+ {
+  "id": "dt028",
+  "verdict": "FAIL",
+  "sha": "b0a5ddbdb2ef508ef7a21a350e75d1437a793193",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "nr7",
+   "cost_bp": 0,
+   "attempt_id": "dt028",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:35+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.141683,
+   "ann_vol": 0.150143,
+   "sharpe": 0.943649,
+   "total_return": 0.298435,
+   "max_drawdown": -0.117328,
+   "mean_daily_net": 0.00038817
+  }
+ },
+ {
+  "id": "dt029",
+  "verdict": "PASS",
+  "sha": "cc050b2a5f9a16b6801a77b9cc78f57cd9c94f4f",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt029",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:36+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.970643,
+   "ann_vol": 0.407179,
+   "sharpe": 2.383822,
+   "total_return": 4.917683,
+   "max_drawdown": -0.204634,
+   "mean_daily_net": 0.0026593
+  }
+ },
+ {
+  "id": "dt030",
+  "verdict": "FAIL",
+  "sha": "ae88ac62c0da93001c45c004508c83c9cab2b382",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt030",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:37+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.0929,
+   "ann_vol": 0.412359,
+   "sharpe": 0.22529,
+   "total_return": 0.015193,
+   "max_drawdown": -0.410353,
+   "mean_daily_net": 0.00025452
+  }
+ },
+ {
+  "id": "dt031",
+  "verdict": "PASS",
+  "sha": "d8a0dec42f297fccf34a10e24559a379eae18062",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt031",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:39+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.335171,
+   "ann_vol": 0.27054,
+   "sharpe": 4.935205,
+   "total_return": 12.444506,
+   "max_drawdown": -0.043459,
+   "mean_daily_net": 0.003658
+  }
+ },
+ {
+  "id": "dt032",
+  "verdict": "PASS",
+  "sha": "8749486f7a2f2fa963638d5fb1843c837373c802",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt032",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:40+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.003231,
+   "ann_vol": 0.389853,
+   "sharpe": 2.573354,
+   "total_return": 5.403289,
+   "max_drawdown": -0.232852,
+   "mean_daily_net": 0.00274858
+  }
+ },
+ {
+  "id": "dt033",
+  "verdict": "FAIL",
+  "sha": "f1a7a7d9445c5b07070190b6de0934f19d85809a",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt033",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:41+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.295088,
+   "ann_vol": 0.381124,
+   "sharpe": 0.774256,
+   "total_return": 0.560545,
+   "max_drawdown": -0.374552,
+   "mean_daily_net": 0.00080846
+  }
+ },
+ {
+  "id": "dt034",
+  "verdict": "PASS",
+  "sha": "a76c8fb37a026f7dfb0c9f81ef8d3c2d21350731",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt034",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:42+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.537491,
+   "ann_vol": 0.30415,
+   "sharpe": 5.055046,
+   "total_return": 18.753334,
+   "max_drawdown": -0.063006,
+   "mean_daily_net": 0.0042123
+  }
+ },
+ {
+  "id": "dt035",
+  "verdict": "PASS",
+  "sha": "7cb4c82465b70f038ed5df9e87ec3f229463ea86",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt035",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:44+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.935758,
+   "ann_vol": 0.369528,
+   "sharpe": 2.532308,
+   "total_return": 4.67974,
+   "max_drawdown": -0.181304,
+   "mean_daily_net": 0.00256372
+  }
+ },
+ {
+  "id": "dt036",
+  "verdict": "PASS",
+  "sha": "b428d869899e0039ec5170011159ebeff9c45cb3",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt036",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:45+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.531256,
+   "ann_vol": 0.341602,
+   "sharpe": 1.555187,
+   "total_return": 1.576861,
+   "max_drawdown": -0.187413,
+   "mean_daily_net": 0.00145549
+  }
+ },
+ {
+  "id": "dt037",
+  "verdict": "PASS",
+  "sha": "4fc9aee95c123f006f6670f7ed29da96fbfcd6c3",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt037",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:46+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.661248,
+   "ann_vol": 0.320939,
+   "sharpe": 5.176208,
+   "total_return": 24.015413,
+   "max_drawdown": -0.081637,
+   "mean_daily_net": 0.00455136
+  }
+ },
+ {
+  "id": "dt038",
+  "verdict": "FAIL",
+  "sha": "dccf71652b9fa79ea027ab6a263a98795055a93e",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt038",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:47+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.693703,
+   "ann_vol": 0.212598,
+   "sharpe": -7.966711,
+   "total_return": -0.968123,
+   "max_drawdown": -0.968123,
+   "mean_daily_net": -0.00464028
+  }
+ },
+ {
+  "id": "dt039",
+  "verdict": "FAIL",
+  "sha": "6f7e00908808c1f334767d62dd183c52d5219423",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt039",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:48+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.386029,
+   "ann_vol": 0.263442,
+   "sharpe": -5.26123,
+   "total_return": -0.94224,
+   "max_drawdown": -0.942681,
+   "mean_daily_net": -0.00379734
+  }
+ },
+ {
+  "id": "dt040",
+  "verdict": "FAIL",
+  "sha": "5623eae6b2889b776507b22f16c42754da5e8e69",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt040",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:50+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.122747,
+   "ann_vol": 0.324415,
+   "sharpe": -3.460832,
+   "total_return": -0.905403,
+   "max_drawdown": -0.910372,
+   "mean_daily_net": -0.00307602
+  }
+ },
+ {
+  "id": "dt041",
+  "verdict": "FAIL",
+  "sha": "1ecb2fb3fc671c4ae7afff273ed73840a18d2797",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt041",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:51+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.736386,
+   "ann_vol": 0.145894,
+   "sharpe": -5.047389,
+   "total_return": -0.776353,
+   "max_drawdown": -0.77946,
+   "mean_daily_net": -0.0020175
+  }
+ },
+ {
+  "id": "dt042",
+  "verdict": "FAIL",
+  "sha": "8fa91a760279126d4fca80dfe5831f08d1671b85",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt042",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:52+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.659006,
+   "ann_vol": 0.206432,
+   "sharpe": -3.192359,
+   "total_return": -0.744369,
+   "max_drawdown": -0.746981,
+   "mean_daily_net": -0.0018055
+  }
+ },
+ {
+  "id": "dt043",
+  "verdict": "FAIL",
+  "sha": "f2faf3bf08ce0d9cf54933cbf71f417df1fb6cf5",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt043",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:53+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.80679,
+   "ann_vol": 0.250841,
+   "sharpe": -3.21634,
+   "total_return": -0.813767,
+   "max_drawdown": -0.82123,
+   "mean_daily_net": -0.00221038
+  }
+ },
+ {
+  "id": "dt044",
+  "verdict": "PASS",
+  "sha": "351531a5a31e0bb6073f35255ad42fa3b32ba89c",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt044",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:55+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.78933,
+   "ann_vol": 0.28935,
+   "sharpe": 2.727946,
+   "total_return": 3.46812,
+   "max_drawdown": -0.142534,
+   "mean_daily_net": 0.00216255
+  }
+ },
+ {
+  "id": "dt045",
+  "verdict": "PASS",
+  "sha": "dfe5f945f83f292459e51c615aa2e074565ddd42",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt045",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:57+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.569389,
+   "ann_vol": 0.257497,
+   "sharpe": 2.211241,
+   "total_return": 1.924574,
+   "max_drawdown": -0.18349,
+   "mean_daily_net": 0.00155997
+  }
+ },
+ {
+  "id": "dt046",
+  "verdict": "PASS",
+  "sha": "c12a8009c9b0bb76e0318fa016982b181844f137",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt046",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:58:58+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.390176,
+   "ann_vol": 0.349697,
+   "sharpe": 3.975369,
+   "total_return": 13.276763,
+   "max_drawdown": -0.126799,
+   "mean_daily_net": 0.0038087
+  }
+ },
+ {
+  "id": "dt047",
+  "verdict": "FAIL",
+  "sha": "aaa689d7ff5f35184fc5a0e66cd33ee8863bb4f1",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt047",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:00+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -8.069253,
+   "ann_vol": 0.415128,
+   "sharpe": -19.437972,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02210754
+  }
+ },
+ {
+  "id": "dt048",
+  "verdict": "FAIL",
+  "sha": "40f4afd9b470bb0f6a0681c17adebaba4ab585da",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt048",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:01+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.640307,
+   "ann_vol": 0.466326,
+   "sharpe": -9.950778,
+   "total_return": -0.999931,
+   "max_drawdown": -0.999931,
+   "mean_daily_net": -0.01271317
+  }
+ },
+ {
+  "id": "dt049",
+  "verdict": "FAIL",
+  "sha": "89643c62b8fcc84381c904f6c42eab5b9e800320",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt049",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:02+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -6.810934,
+   "ann_vol": 0.398189,
+   "sharpe": -17.104761,
+   "total_return": -0.999999,
+   "max_drawdown": -0.999999,
+   "mean_daily_net": -0.01866009
+  }
+ },
+ {
+  "id": "dt050",
+  "verdict": "FAIL",
+  "sha": "74ba9641c6d89848f2cac2612815660f87a45f6a",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt050",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:03+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.006058,
+   "ann_vol": 0.431577,
+   "sharpe": -9.282374,
+   "total_return": -0.999741,
+   "max_drawdown": -0.999741,
+   "mean_daily_net": -0.0109755
+  }
+ },
+ {
+  "id": "dt051",
+  "verdict": "FAIL",
+  "sha": "4be6ed44caf3148eb85992f326614488f1a65b19",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt051",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:04+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -6.924862,
+   "ann_vol": 0.404308,
+   "sharpe": -17.127683,
+   "total_return": -0.999999,
+   "max_drawdown": -0.999999,
+   "mean_daily_net": -0.01897222
+  }
+ },
+ {
+  "id": "dt052",
+  "verdict": "FAIL",
+  "sha": "35be8923035819b6d2880bd61f8eda55de742fc1",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt052",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:05+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.775061,
+   "ann_vol": 0.427938,
+   "sharpe": -8.821516,
+   "total_return": -0.999585,
+   "max_drawdown": -0.999587,
+   "mean_daily_net": -0.01034263
+  }
+ },
+ {
+  "id": "dt053",
+  "verdict": "FAIL",
+  "sha": "370d59d19822b6bd6c5894377b5cd7980a7d1891",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt053",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:06+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.888675,
+   "ann_vol": 0.223104,
+   "sharpe": -8.465463,
+   "total_return": -0.978572,
+   "max_drawdown": -0.978572,
+   "mean_daily_net": -0.00517445
+  }
+ },
+ {
+  "id": "dt054",
+  "verdict": "FAIL",
+  "sha": "c994ffb4a6e95da07071202a3882fd9bb08294ff",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt054",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:07+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.668868,
+   "ann_vol": 0.260426,
+   "sharpe": -6.408231,
+   "total_return": -0.967249,
+   "max_drawdown": -0.967905,
+   "mean_daily_net": -0.00457224
+  }
+ },
+ {
+  "id": "dt055",
+  "verdict": "FAIL",
+  "sha": "628a114e25e6b06d88a58ba78c317d8897c82c73",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt055",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:08+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.560103,
+   "ann_vol": 0.276295,
+   "sharpe": -12.885173,
+   "total_return": -0.999285,
+   "max_drawdown": -0.999292,
+   "mean_daily_net": -0.00975371
+  }
+ },
+ {
+  "id": "dt056",
+  "verdict": "FAIL",
+  "sha": "948932f777a029931100ef330432b468d3c5f86b",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt056",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:08+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.108407,
+   "ann_vol": 0.313448,
+   "sharpe": -9.916817,
+   "total_return": -0.998259,
+   "max_drawdown": -0.998259,
+   "mean_daily_net": -0.00851618
+  }
+ },
+ {
+  "id": "dt057",
+  "verdict": "FAIL",
+  "sha": "9d30660852504637f441dc4d4c8f0ef73aa53451",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "nr7",
+   "cost_bp": 5,
+   "attempt_id": "dt057",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:09+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.090253,
+   "ann_vol": 0.149477,
+   "sharpe": 0.603791,
+   "total_return": 0.171572,
+   "max_drawdown": -0.127978,
+   "mean_daily_net": 0.00024727
+  }
+ },
+ {
+  "id": "dt058",
+  "verdict": "PASS",
+  "sha": "c82b0a40bd583f76f1c5f80501b5d6d49c1b719d",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt058",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:11+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.649084,
+   "ann_vol": 0.406942,
+   "sharpe": 1.595026,
+   "total_return": 2.111915,
+   "max_drawdown": -0.235254,
+   "mean_daily_net": 0.00177831
+  }
+ },
+ {
+  "id": "dt059",
+  "verdict": "FAIL",
+  "sha": "4c4766ec03ff141d804fbfc3da7b7d5eab2c932b",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt059",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:12+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.222168,
+   "ann_vol": 0.41238,
+   "sharpe": -0.538746,
+   "total_return": -0.460112,
+   "max_drawdown": -0.610339,
+   "mean_daily_net": -0.00060868
+  }
+ },
+ {
+  "id": "dt060",
+  "verdict": "PASS",
+  "sha": "4095cface1ff3a019bf9afbce6c9977b04dddcb2",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt060",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:13+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.970171,
+   "ann_vol": 0.27054,
+   "sharpe": 3.586052,
+   "total_return": 5.486564,
+   "max_drawdown": -0.055082,
+   "mean_daily_net": 0.002658
+  }
+ },
+ {
+  "id": "dt061",
+  "verdict": "FAIL",
+  "sha": "3a66095385240798be96ebe7bebde13f10e43b0f",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt061",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:15+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.69715,
+   "ann_vol": 0.389501,
+   "sharpe": 1.789856,
+   "total_return": 2.473675,
+   "max_drawdown": -0.261675,
+   "mean_daily_net": 0.00191
+  }
+ },
+ {
+  "id": "dt062",
+  "verdict": "FAIL",
+  "sha": "ad4db9e2a2723bd8b4e73c008db94b75924e2275",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt062",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:16+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.002504,
+   "ann_vol": 0.381053,
+   "sharpe": -0.006572,
+   "total_return": -0.140122,
+   "max_drawdown": -0.409516,
+   "mean_daily_net": -6.86e-06
+  }
+ },
+ {
+  "id": "dt063",
+  "verdict": "PASS",
+  "sha": "af03dbf851711bf9b7eb55391a336c2b4ae5c4fa",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt063",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:17+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.17299,
+   "ann_vol": 0.304144,
+   "sharpe": 3.856698,
+   "total_return": 8.543404,
+   "max_drawdown": -0.081629,
+   "mean_daily_net": 0.00321367
+  }
+ },
+ {
+  "id": "dt064",
+  "verdict": "PASS",
+  "sha": "d9eeb474b0c4ac9e54e4dbbc6ee8f24874493ca6",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt064",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:19+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.648651,
+   "ann_vol": 0.369069,
+   "sharpe": 1.757532,
+   "total_return": 2.200224,
+   "max_drawdown": -0.23056,
+   "mean_daily_net": 0.00177713
+  }
+ },
+ {
+  "id": "dt065",
+  "verdict": "FAIL",
+  "sha": "31de565a7042c0bfec9b62e99cbc048cec9413f4",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt065",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:20+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.262124,
+   "ann_vol": 0.341297,
+   "sharpe": 0.768024,
+   "total_return": 0.504006,
+   "max_drawdown": -0.278368,
+   "mean_daily_net": 0.00071815
+  }
+ },
+ {
+  "id": "dt066",
+  "verdict": "PASS",
+  "sha": "0a12cc3fcc2fe3eaa6bbfba89fc4d663debfbb54",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt066",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:21+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.299243,
+   "ann_vol": 0.320901,
+   "sharpe": 4.048733,
+   "total_return": 11.149005,
+   "max_drawdown": -0.090857,
+   "mean_daily_net": 0.00355957
+  }
+ },
+ {
+  "id": "dt067",
+  "verdict": "FAIL",
+  "sha": "0492b55de7cf46a13c63c2d99a7af79346df0966",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt067",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:22+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.653019,
+   "ann_vol": 0.219553,
+   "sharpe": -16.638471,
+   "total_return": -0.99939,
+   "max_drawdown": -0.99939,
+   "mean_daily_net": -0.01000827
+  }
+ },
+ {
+  "id": "dt068",
+  "verdict": "FAIL",
+  "sha": "88a339bc6ed7cc38503b3c3281f9f67894280d0e",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt068",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:24+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.077711,
+   "ann_vol": 0.267172,
+   "sharpe": -11.519567,
+   "total_return": -0.998095,
+   "max_drawdown": -0.9981,
+   "mean_daily_net": -0.00843209
+  }
+ },
+ {
+  "id": "dt069",
+  "verdict": "FAIL",
+  "sha": "5b0da7af5ba3a3768868c1eb1c246cb455524d39",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt069",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:25+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -2.501359,
+   "ann_vol": 0.327439,
+   "sharpe": -7.639155,
+   "total_return": -0.994117,
+   "max_drawdown": -0.994191,
+   "mean_daily_net": -0.00685304
+  }
+ },
+ {
+  "id": "dt070",
+  "verdict": "FAIL",
+  "sha": "a5efd71fb66b4ed6307c1aa6aa57edfc6b9f7f56",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt070",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:26+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.401974,
+   "ann_vol": 0.151395,
+   "sharpe": -9.260382,
+   "total_return": -0.941361,
+   "max_drawdown": -0.941887,
+   "mean_daily_net": -0.00384103
+  }
+ },
+ {
+  "id": "dt071",
+  "verdict": "FAIL",
+  "sha": "c023fb81cf5baa78fcc8fe7b2170ee9c10be2e1f",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt071",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:27+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.287645,
+   "ann_vol": 0.210082,
+   "sharpe": -6.129245,
+   "total_return": -0.927786,
+   "max_drawdown": -0.928382,
+   "mean_daily_net": -0.00352779
+  }
+ },
+ {
+  "id": "dt072",
+  "verdict": "FAIL",
+  "sha": "78d191b7789e8e574d5665b510c6d254a197d796",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt072",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:29+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.394984,
+   "ann_vol": 0.253384,
+   "sharpe": -5.505404,
+   "total_return": -0.942954,
+   "max_drawdown": -0.943891,
+   "mean_daily_net": -0.00382187
+  }
+ },
+ {
+  "id": "dt073",
+  "verdict": "PASS",
+  "sha": "92fc8ffc6bda0ef04a6fd0240fa47dbe38229516",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt073",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:30+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.623058,
+   "ann_vol": 0.288016,
+   "sharpe": 2.163276,
+   "total_return": 2.206619,
+   "max_drawdown": -0.156283,
+   "mean_daily_net": 0.00170701
+  }
+ },
+ {
+  "id": "dt074",
+  "verdict": "PASS",
+  "sha": "7feea561633aa5e8e091d5d57635ee18f34f085c",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt074",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:32+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.428582,
+   "ann_vol": 0.256303,
+   "sharpe": 1.67217,
+   "total_return": 1.20784,
+   "max_drawdown": -0.197434,
+   "mean_daily_net": 0.0011742
+  }
+ },
+ {
+  "id": "dt075",
+  "verdict": "PASS",
+  "sha": "39dfe5d92b81736c72704d32dd5f8163c065ce26",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "pdbreak",
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt075",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:34+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.114554,
+   "ann_vol": 0.348818,
+   "sharpe": 3.195229,
+   "total_return": 7.239128,
+   "max_drawdown": -0.135861,
+   "mean_daily_net": 0.00305357
+  }
+ },
+ {
+  "id": "dt076",
+  "verdict": "FAIL",
+  "sha": "674974435763a9adface200da6ee1da04ab7c8a2",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt076",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:35+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -15.076154,
+   "ann_vol": 0.415343,
+   "sharpe": -36.29808,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.04130453
+  }
+ },
+ {
+  "id": "dt077",
+  "verdict": "FAIL",
+  "sha": "b6154e70e868d23e81fed466dc4191c83def6fef",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt077",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:36+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -8.533224,
+   "ann_vol": 0.46701,
+   "sharpe": -18.272053,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.0233787
+  }
+ },
+ {
+  "id": "dt078",
+  "verdict": "FAIL",
+  "sha": "77571ed29e096880b2d270aac993a1214d7b6159",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt078",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:37+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -13.817836,
+   "ann_vol": 0.398375,
+   "sharpe": -34.685464,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.03785708
+  }
+ },
+ {
+  "id": "dt079",
+  "verdict": "FAIL",
+  "sha": "a78a4218c0bb452e453af3d068aeae0331cfb07d",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt079",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:38+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -7.898975,
+   "ann_vol": 0.431572,
+   "sharpe": -18.302816,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02164103
+  }
+ },
+ {
+  "id": "dt080",
+  "verdict": "FAIL",
+  "sha": "b7fbf778d5db333ea173b848648f1b0a4a1c8cc0",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt080",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:39+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -13.931014,
+   "ann_vol": 0.404758,
+   "sharpe": -34.418168,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.03816716
+  }
+ },
+ {
+  "id": "dt081",
+  "verdict": "FAIL",
+  "sha": "95ddc7e73c06717dda61f16328759021b7c7471f",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt081",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:40+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -7.667479,
+   "ann_vol": 0.428415,
+   "sharpe": -17.897334,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02100679
+  }
+ },
+ {
+  "id": "dt082",
+  "verdict": "FAIL",
+  "sha": "4f21497708daf600d690497347e4864d0860a7b1",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt082",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:40+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.265419,
+   "ann_vol": 0.238322,
+   "sharpe": -17.897747,
+   "total_return": -0.999825,
+   "max_drawdown": -0.999825,
+   "mean_daily_net": -0.01168608
+  }
+ },
+ {
+  "id": "dt083",
+  "verdict": "FAIL",
+  "sha": "67d9c950be044de24312658809f261897c2b9eef",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt083",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:41+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.760004,
+   "ann_vol": 0.267054,
+   "sharpe": -14.079572,
+   "total_return": -0.99952,
+   "max_drawdown": -0.99952,
+   "mean_daily_net": -0.01030138
+  }
+ },
+ {
+  "id": "dt084",
+  "verdict": "FAIL",
+  "sha": "27ef8a3b07c21989ba2d466561a92f1c3788ad85",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt084",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:42+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -8.068428,
+   "ann_vol": 0.293799,
+   "sharpe": -27.462399,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02210528
+  }
+ },
+ {
+  "id": "dt085",
+  "verdict": "FAIL",
+  "sha": "abf3de01102799205061b8b8cc84dbde3d31f474",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt085",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:43+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -6.737436,
+   "ann_vol": 0.320623,
+   "sharpe": -21.013608,
+   "total_return": -0.999999,
+   "max_drawdown": -0.999999,
+   "mean_daily_net": -0.01845873
+  }
+ },
+ {
+  "id": "dt086",
+  "verdict": "FAIL",
+  "sha": "d4c5fa3ad815f88cfcb071a181d04daf989c1cfc",
+  "params": {
+   "symbol": "BTCUSDT",
+   "class": "nr7",
+   "cost_bp": 10,
+   "attempt_id": "dt086",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:44+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.038824,
+   "ann_vol": 0.149106,
+   "sharpe": 0.260377,
+   "total_return": 0.056996,
+   "max_drawdown": -0.144601,
+   "mean_daily_net": 0.00010637
+  }
+ },
+ {
+  "id": "dt087",
+  "verdict": "FAIL",
+  "sha": "9227bdd64ea8d4f2d2fb724396bef4be9a814439",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt087",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:46+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.480417,
+   "ann_vol": 0.617109,
+   "sharpe": 2.398956,
+   "total_return": 12.272349,
+   "max_drawdown": -0.372112,
+   "mean_daily_net": 0.00405594
+  }
+ },
+ {
+  "id": "dt088",
+  "verdict": "FAIL",
+  "sha": "039a462e4bce64614f85e5fe3a4dd6f5c0c2fe80",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt088",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:47+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.892442,
+   "ann_vol": 0.611615,
+   "sharpe": 1.459156,
+   "total_return": 3.08854,
+   "max_drawdown": -0.611863,
+   "mean_daily_net": 0.00244505
+  }
+ },
+ {
+  "id": "dt089",
+  "verdict": "PASS",
+  "sha": "33fb3d8ce721f2230cc0d4cdc3a321788a64de1b",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt089",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:48+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.372859,
+   "ann_vol": 0.381081,
+   "sharpe": 6.226648,
+   "total_return": 98.424311,
+   "max_drawdown": -0.056947,
+   "mean_daily_net": 0.00650098
+  }
+ }
+]

@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20024",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:21:46+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "BTCUSDT"
+ },
+ "original_commit": "1bbabfced2e207a2337c8b1f196ee485ef0fe8a0 2026-09-19T12:21:47+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 1.0,
+  "stats": {
+   "ann_arith_return": 1.647541,
+   "ann_vol": 0.386558,
+   "max_drawdown": -0.136753,
+   "mean_daily_net": 0.00451381,
+   "n_days": 731,
+   "sharpe": 4.262084,
+   "total_return": 22.206235
+  },
+  "verdict": "PASS",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

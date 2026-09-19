@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20539",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "emax",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:48:58+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "XRPUSDT"
+ },
+ "original_commit": "83b7440d82e0d52dc686fef82c1dd7559d6922bf 2026-09-19T12:48:59+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.0,
+  "stats": {
+   "ann_arith_return": -7.335002,
+   "ann_vol": 0.880416,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.0200959,
+   "n_days": 731,
+   "sharpe": -8.331296,
+   "total_return": -1.0
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20829",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:56:52+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ETHUSD_CB"
+ },
+ "original_commit": "7907ec6e3a6c7f87b595979dd5e458134cdd87c0 2026-09-19T12:56:54+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.464182,
+  "stats": {
+   "ann_arith_return": -0.031871,
+   "ann_vol": 0.501348,
+   "max_drawdown": -0.569379,
+   "mean_daily_net": -8.732e-05,
+   "n_days": 731,
+   "sharpe": -0.06357,
+   "total_return": -0.271125
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

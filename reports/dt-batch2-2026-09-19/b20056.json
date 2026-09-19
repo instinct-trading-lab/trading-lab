@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20056",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "sweep",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:22:41+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "BTCUSDT"
+ },
+ "original_commit": "87c4dc3a50f701c80a47c122bdadaa6b39dac728 2026-09-19T12:22:42+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.014289,
+  "stats": {
+   "ann_arith_return": -0.264979,
+   "ann_vol": 0.167165,
+   "max_drawdown": -0.487466,
+   "mean_daily_net": -0.00072597,
+   "n_days": 731,
+   "sharpe": -1.585138,
+   "total_return": -0.428105
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

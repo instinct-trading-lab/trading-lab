@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt047",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "mom",
+  "cost_bp": 5,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T11:59:00+03:00",
+  "symbol": "BTCUSDT"
+ },
+ "original_commit": "aaa689d7ff5f35184fc5a0e66cd33ee8863bb4f1 2026-09-19T11:59:01+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": false,
+   "sharpe_ok": false
+  },
+  "stats": {
+   "ann_arith_return": -8.069253,
+   "ann_vol": 0.415128,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02210754,
+   "n_days": 731,
+   "sharpe": -19.437972,
+   "total_return": -1.0
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

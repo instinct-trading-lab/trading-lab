@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r10086",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "nr7",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:37:41+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "BTCUSDT"
+ },
+ "original_commit": "8cb9250ff5ab78039832ec684e2e5e863e4eff13 2026-09-19T12:37:42+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.079984,
+  "stats": {
+   "ann_arith_return": -0.144003,
+   "ann_vol": 0.149201,
+   "max_drawdown": -0.27466,
+   "mean_daily_net": -0.00039453,
+   "n_days": 731,
+   "sharpe": -0.965156,
+   "total_return": -0.267238
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

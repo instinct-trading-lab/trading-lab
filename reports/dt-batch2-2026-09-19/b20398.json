@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20398",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "emax",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:32:02+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "LINKUSDT"
+ },
+ "original_commit": "db907ac190da147a958fb1d009d08d49049b5271 2026-09-19T12:32:02+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 1.0,
+  "stats": {
+   "ann_arith_return": 19.453968,
+   "ann_vol": 0.811204,
+   "max_drawdown": -0.017593,
+   "mean_daily_net": 0.05329854,
+   "n_days": 731,
+   "sharpe": 23.981597,
+   "total_return": 1.7367859153008752e+16
+  },
+  "verdict": "PASS",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

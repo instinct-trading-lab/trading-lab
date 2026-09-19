@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt189",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "pdbreak",
+  "cost_bp": 0,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T12:01:58+03:00",
+  "symbol": "SOLUSDT"
+ },
+ "original_commit": "0501d804bde4f695c61817ee602b7c86a91fc781 2026-09-19T12:01:59+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": true,
+   "sharpe_ok": true
+  },
+  "stats": {
+   "ann_arith_return": 1.236609,
+   "ann_vol": 0.510917,
+   "max_drawdown": -0.322306,
+   "mean_daily_net": 0.00338797,
+   "n_days": 731,
+   "sharpe": 2.420372,
+   "total_return": 8.185022
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

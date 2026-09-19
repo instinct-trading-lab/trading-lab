@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r10089",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "orb",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:37:45+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "edc690412141f7670d21c256cf2d81edd8ec6bd4 2026-09-19T12:37:46+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.058014,
+  "stats": {
+   "ann_arith_return": -0.496343,
+   "ann_vol": 0.408949,
+   "max_drawdown": -0.70419,
+   "mean_daily_net": -0.00135984,
+   "n_days": 731,
+   "sharpe": -1.213703,
+   "total_return": -0.685328
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

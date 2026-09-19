@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20132",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:24:48+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "SOLUSDT"
+ },
+ "original_commit": "8323c302866b09243aaee2d6833343ed8f506af6 2026-09-19T12:24:48+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.679235,
+  "stats": {
+   "ann_arith_return": 0.172594,
+   "ann_vol": 0.531202,
+   "max_drawdown": -0.417587,
+   "mean_daily_net": 0.00047286,
+   "n_days": 731,
+   "sharpe": 0.324912,
+   "total_return": 0.073044
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

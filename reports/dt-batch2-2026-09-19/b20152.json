@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20152",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:25:23+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "SOLUSDT"
+ },
+ "original_commit": "c7fa1f917ac7a475547cf97ee4ca26b53b01724f 2026-09-19T12:25:25+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.999993,
+  "stats": {
+   "ann_arith_return": 2.030943,
+   "ann_vol": 0.66831,
+   "max_drawdown": -0.333383,
+   "mean_daily_net": 0.00556423,
+   "n_days": 731,
+   "sharpe": 3.038925,
+   "total_return": 36.210765
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

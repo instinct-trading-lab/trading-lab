@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20104",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "emax",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:24:00+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "97ac42d0f03e23e0ce47dd438d60cccd57073861 2026-09-19T12:24:00+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 1.0,
+  "stats": {
+   "ann_arith_return": 3.244148,
+   "ann_vol": 0.597949,
+   "max_drawdown": -0.146286,
+   "mean_daily_net": 0.00888808,
+   "n_days": 731,
+   "sharpe": 5.42546,
+   "total_return": 455.177192
+  },
+  "verdict": "PASS",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20276",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:41:40+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "BTCUSDT"
+ },
+ "original_commit": "00bc264c77b93724786b0847b103ea2d9054e681 2026-09-19T12:41:41+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.78716,
+  "stats": {
+   "ann_arith_return": 0.064181,
+   "ann_vol": 0.117682,
+   "max_drawdown": -0.061223,
+   "mean_daily_net": 0.00017584,
+   "n_days": 731,
+   "sharpe": 0.545373,
+   "total_return": 0.121666
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

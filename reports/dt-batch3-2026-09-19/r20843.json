@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20843",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "emax",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:57:20+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ETHUSD_CB"
+ },
+ "original_commit": "b26ea767c25546b8435bcf49283331e025f84954 2026-09-19T12:57:20+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.981072,
+  "stats": {
+   "ann_arith_return": 0.925438,
+   "ann_vol": 0.639716,
+   "max_drawdown": -0.298652,
+   "mean_daily_net": 0.00253545,
+   "n_days": 731,
+   "sharpe": 1.446639,
+   "total_return": 3.250283
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

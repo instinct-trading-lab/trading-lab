@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r10205",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "orb",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:40:02+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "SOLUSDT"
+ },
+ "original_commit": "4cbc339d976bef2afb4ec81bb241f98015238b00 2026-09-19T12:40:03+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.00011,
+  "stats": {
+   "ann_arith_return": -1.610648,
+   "ann_vol": 0.507001,
+   "max_drawdown": -0.971119,
+   "mean_daily_net": -0.00441273,
+   "n_days": 731,
+   "sharpe": -3.176814,
+   "total_return": -0.96926
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

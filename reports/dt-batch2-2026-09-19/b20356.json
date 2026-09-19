@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20356",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "sweep",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:30:48+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ADAUSDT"
+ },
+ "original_commit": "21045caf47f5cebf7efec3cb2bfe5028e34e0953 2026-09-19T12:30:49+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.999932,
+  "stats": {
+   "ann_arith_return": 0.751444,
+   "ann_vol": 0.291371,
+   "max_drawdown": -0.208762,
+   "mean_daily_net": 0.00205875,
+   "n_days": 731,
+   "sharpe": 2.578993,
+   "total_return": 3.135323
+  },
+  "verdict": "PASS",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

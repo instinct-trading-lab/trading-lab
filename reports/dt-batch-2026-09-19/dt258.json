@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt258",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "rsi2",
+  "cost_bp": 10,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T12:03:22+03:00",
+  "symbol": "SOLUSDT"
+ },
+ "original_commit": "6ba25db94113876869edddcb3e1a2d8d741c53d8 2026-09-19T12:03:22+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": false,
+   "sharpe_ok": false
+  },
+  "stats": {
+   "ann_arith_return": -8.597586,
+   "ann_vol": 0.479134,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02355503,
+   "n_days": 731,
+   "sharpe": -17.943999,
+   "total_return": -1.0
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

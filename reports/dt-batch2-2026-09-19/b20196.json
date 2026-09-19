@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20196",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:26:28+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "DOGEUSDT"
+ },
+ "original_commit": "ec33345d286c6bb61729c46c21dd32498018b616 2026-09-19T12:26:29+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.742786,
+  "stats": {
+   "ann_arith_return": 0.223828,
+   "ann_vol": 0.483804,
+   "max_drawdown": -0.467374,
+   "mean_daily_net": 0.00061323,
+   "n_days": 731,
+   "sharpe": 0.462643,
+   "total_return": 0.236198
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

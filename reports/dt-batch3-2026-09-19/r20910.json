@@ -1,0 +1,37 @@
+{
+ "identity": {
+  "attempt": "r20910",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "dow",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:59:11+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "SOLUSD_CB"
+ },
+ "original_commit": "444052c124a605fd96ef38143889bfcc529b4f1d 2026-09-19T12:59:11+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.214003,
+  "stats": {
+   "ann_arith_return": -0.387233,
+   "ann_vol": 0.466556,
+   "max_drawdown": -0.437914,
+   "mean_daily_net": -0.00106091,
+   "n_days": 365,
+   "sharpe": -0.829983,
+   "total_return": -0.389619
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "start_utc": "2025-01-01T00:00:00Z"
+  }
+ }
+}

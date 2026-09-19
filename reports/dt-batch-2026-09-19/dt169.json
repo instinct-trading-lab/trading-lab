@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt169",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "rsi2",
+  "cost_bp": 10,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T12:01:30+03:00",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "8a91286d5bcd1ed6abfc61cafd2d0ce8f847b33e 2026-09-19T12:01:30+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": false,
+   "sharpe_ok": false
+  },
+  "stats": {
+   "ann_arith_return": -4.564553,
+   "ann_vol": 0.318428,
+   "max_drawdown": -0.999909,
+   "mean_daily_net": -0.01250563,
+   "n_days": 731,
+   "sharpe": -14.334649,
+   "total_return": -0.999909
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

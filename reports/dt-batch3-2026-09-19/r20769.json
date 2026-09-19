@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20769",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:55:10+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "BTCUSD_CB"
+ },
+ "original_commit": "43d6005152c43b6188db3342d63312c772ab9f88 2026-09-19T12:55:12+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.219846,
+  "stats": {
+   "ann_arith_return": -0.189109,
+   "ann_vol": 0.345636,
+   "max_drawdown": -0.477573,
+   "mean_daily_net": -0.00051811,
+   "n_days": 731,
+   "sharpe": -0.547132,
+   "total_return": -0.392567
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

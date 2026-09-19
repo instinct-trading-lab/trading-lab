@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20377",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:31:22+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "LINKUSDT"
+ },
+ "original_commit": "1440d82c14e5ae14bfaeba91e0ca577639179772 2026-09-19T12:31:23+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.151294,
+  "stats": {
+   "ann_arith_return": -0.323061,
+   "ann_vol": 0.439413,
+   "max_drawdown": -0.646901,
+   "mean_daily_net": -0.0008851,
+   "n_days": 731,
+   "sharpe": -0.73521,
+   "total_return": -0.568498
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

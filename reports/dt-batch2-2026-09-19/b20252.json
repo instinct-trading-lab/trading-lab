@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20252",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:28:00+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "XRPUSDT"
+ },
+ "original_commit": "efc9b9f873ef2a4ff44518082f0b4b6d6f6f939e 2026-09-19T12:28:01+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.237575,
+  "stats": {
+   "ann_arith_return": -0.295354,
+   "ann_vol": 0.58049,
+   "max_drawdown": -0.635312,
+   "mean_daily_net": -0.00080919,
+   "n_days": 731,
+   "sharpe": -0.508801,
+   "total_return": -0.60509
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

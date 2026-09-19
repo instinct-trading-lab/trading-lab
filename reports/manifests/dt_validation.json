@@ -1,0 +1,977 @@
+[
+ {
+  "id": "v000",
+  "of": "dt000",
+  "verdict": "PASS",
+  "sha": "0fa42de90d614c538d9a70cd050dba8d0de29a3c",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.903678,
+   "ann_vol": 0.383689,
+   "sharpe": 2.355238,
+   "total_return": 0.815221,
+   "max_drawdown": -0.165695,
+   "mean_daily_net": 0.00247583
+  }
+ },
+ {
+  "id": "v176",
+  "of": "dt176",
+  "verdict": "PASS",
+  "sha": "386e4cd87ccc9cbd9e515862318953810d8d2757",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.829406,
+   "ann_vol": 0.366011,
+   "sharpe": 7.730377,
+   "total_return": 6.22568,
+   "max_drawdown": -0.019797,
+   "mean_daily_net": 0.0077518
+  }
+ },
+ {
+  "id": "v179",
+  "of": "dt179",
+  "verdict": "PASS",
+  "sha": "8b1a34612afe306d9def6272be36104d34cc27fd",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 3.001974,
+   "ann_vol": 0.399942,
+   "sharpe": 7.506022,
+   "total_return": 7.097122,
+   "max_drawdown": -0.045417,
+   "mean_daily_net": 0.00822459
+  }
+ },
+ {
+  "id": "v182",
+  "of": "dt182",
+  "verdict": "PASS",
+  "sha": "b9e1d86553813ffa575af6b45440dd5ef3f38453",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.213614,
+   "ann_vol": 0.383071,
+   "sharpe": 5.778594,
+   "total_return": 3.635153,
+   "max_drawdown": -0.112132,
+   "mean_daily_net": 0.0060647
+  }
+ },
+ {
+  "id": "v198",
+  "of": "dt198",
+  "verdict": "PASS",
+  "sha": "19534def3aab49153fad1daddc54334fe90fd3c7",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.88404,
+   "ann_vol": 0.291287,
+   "sharpe": 3.034948,
+   "total_return": 0.828654,
+   "max_drawdown": -0.167752,
+   "mean_daily_net": 0.00242203
+  }
+ },
+ {
+  "id": "v200",
+  "of": "dt200",
+  "verdict": "PASS",
+  "sha": "8b1d71f499b07de913f5806f077a38a447d1446d",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.574769,
+   "ann_vol": 0.356342,
+   "sharpe": 4.419265,
+   "total_return": 1.954316,
+   "max_drawdown": -0.16231,
+   "mean_daily_net": 0.00431443
+  }
+ },
+ {
+  "id": "v202",
+  "of": "dt202",
+  "verdict": "PASS",
+  "sha": "c19e4bed28bd34c58912bc06b9c442bc71e09a95",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.636515,
+   "ann_vol": 0.168592,
+   "sharpe": 3.775477,
+   "total_return": 0.562918,
+   "max_drawdown": -0.038342,
+   "mean_daily_net": 0.00174388
+  }
+ },
+ {
+  "id": "v205",
+  "of": "dt205",
+  "verdict": "PASS",
+  "sha": "be2972bf47a2ef82b620abc8d99a3ff9ee62d0b6",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.465799,
+   "ann_vol": 0.365984,
+   "sharpe": 6.737457,
+   "total_return": 4.575819,
+   "max_drawdown": -0.028859,
+   "mean_daily_net": 0.00675561
+  }
+ },
+ {
+  "id": "v208",
+  "of": "dt208",
+  "verdict": "PASS",
+  "sha": "8b8df22b208b778524b84ddc7586532b0349bbca",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.638367,
+   "ann_vol": 0.399915,
+   "sharpe": 6.597319,
+   "total_return": 5.248934,
+   "max_drawdown": -0.057519,
+   "mean_daily_net": 0.0072284
+  }
+ },
+ {
+  "id": "v211",
+  "of": "dt211",
+  "verdict": "PASS",
+  "sha": "596797fe9d1f42ca615fe83935d9eaee7620b701",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.850007,
+   "ann_vol": 0.383051,
+   "sharpe": 4.829662,
+   "total_return": 2.575197,
+   "max_drawdown": -0.135035,
+   "mean_daily_net": 0.00506851
+  }
+ },
+ {
+  "id": "v231",
+  "of": "dt231",
+  "verdict": "PASS",
+  "sha": "0c0444dfc3f8dc1b8adaeea5c19964286602704c",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.584969,
+   "ann_vol": 0.16544,
+   "sharpe": 3.535849,
+   "total_return": 0.506777,
+   "max_drawdown": -0.039342,
+   "mean_daily_net": 0.00160266
+  }
+ },
+ {
+  "id": "v234",
+  "of": "dt234",
+  "verdict": "PASS",
+  "sha": "a2f792704fb5f0f56f3ceefdb25e8d319339e506",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.102192,
+   "ann_vol": 0.36596,
+   "sharpe": 5.744326,
+   "total_return": 3.301567,
+   "max_drawdown": -0.050543,
+   "mean_daily_net": 0.00575943
+  }
+ },
+ {
+  "id": "v237",
+  "of": "dt237",
+  "verdict": "PASS",
+  "sha": "4f893887ec9f35d760a6cf487bccf0c41d63477e",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.27476,
+   "ann_vol": 0.399892,
+   "sharpe": 5.688443,
+   "total_return": 3.821357,
+   "max_drawdown": -0.081609,
+   "mean_daily_net": 0.00623222
+  }
+ },
+ {
+  "id": "v260",
+  "of": "dt260",
+  "verdict": "PASS",
+  "sha": "9dc867997ab7f38093e35b18d71c296c66ab6f03",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.533424,
+   "ann_vol": 0.1625,
+   "sharpe": 3.282614,
+   "total_return": 0.4526,
+   "max_drawdown": -0.040517,
+   "mean_daily_net": 0.00146143
+  }
+ },
+ {
+  "id": "v002",
+  "of": "dt002",
+  "verdict": "PASS",
+  "sha": "bba20269839a03053cf172b241acf1bf14fba263",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.842268,
+   "ann_vol": 0.310869,
+   "sharpe": 5.926188,
+   "total_return": 2.619643,
+   "max_drawdown": -0.024771,
+   "mean_daily_net": 0.00504731
+  }
+ },
+ {
+  "id": "v003",
+  "of": "dt003",
+  "verdict": "PASS",
+  "sha": "c53830b5ac301ca3f1bb833c4a6b7f66c9ed49af",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.06765,
+   "ann_vol": 0.351357,
+   "sharpe": 3.038645,
+   "total_return": 1.058589,
+   "max_drawdown": -0.092276,
+   "mean_daily_net": 0.00292507
+  }
+ },
+ {
+  "id": "v005",
+  "of": "dt005",
+  "verdict": "PASS",
+  "sha": "b1d41ddf8ead92566dd726f9e6c7a1536f8aa479",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.18012,
+   "ann_vol": 0.326141,
+   "sharpe": 6.684596,
+   "total_return": 3.590813,
+   "max_drawdown": -0.038078,
+   "mean_daily_net": 0.00597293
+  }
+ },
+ {
+  "id": "v006",
+  "of": "dt006",
+  "verdict": "PASS",
+  "sha": "43fbcc42d251ff622e3e6f49ce284707e2f69082",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.908246,
+   "ann_vol": 0.309657,
+   "sharpe": 2.933068,
+   "total_return": 0.85404,
+   "max_drawdown": -0.100711,
+   "mean_daily_net": 0.00248835
+  }
+ },
+ {
+  "id": "v007",
+  "of": "dt007",
+  "verdict": "PASS",
+  "sha": "54ba6e110216076df93a1fd5839920add8e5f9d1",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.00819,
+   "ann_vol": 0.3423,
+   "sharpe": 2.945338,
+   "total_return": 0.97678,
+   "max_drawdown": -0.16293,
+   "mean_daily_net": 0.00276216
+  }
+ },
+ {
+  "id": "v008",
+  "of": "dt008",
+  "verdict": "PASS",
+  "sha": "ab1580524d783760853b073089e1b7ea6a6cf3e9",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.916436,
+   "ann_vol": 0.313249,
+   "sharpe": 6.11794,
+   "total_return": 2.812783,
+   "max_drawdown": -0.080982,
+   "mean_daily_net": 0.00525051
+  }
+ },
+ {
+  "id": "v009",
+  "of": "dt009",
+  "verdict": "PASS",
+  "sha": "8a0465147b42d35e3860b53c9d733f477ec7737b",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.2367,
+   "ann_vol": 0.211212,
+   "sharpe": 1.120675,
+   "total_return": 0.166212,
+   "max_drawdown": -0.170817,
+   "mean_daily_net": 0.00064849
+  }
+ },
+ {
+  "id": "v010",
+  "of": "dt010",
+  "verdict": "PASS",
+  "sha": "d1fc2ba6a2169250ab030831f0367eb9c914b296",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.360132,
+   "ann_vol": 0.246868,
+   "sharpe": 1.458803,
+   "total_return": 0.266876,
+   "max_drawdown": -0.194313,
+   "mean_daily_net": 0.00098666
+  }
+ },
+ {
+  "id": "v015",
+  "of": "dt015",
+  "verdict": "PASS",
+  "sha": "dce2e3e7198cee07f2d96175609de8f9f1a6721b",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.146028,
+   "ann_vol": 0.239122,
+   "sharpe": 4.792643,
+   "total_return": 1.228628,
+   "max_drawdown": -0.047698,
+   "mean_daily_net": 0.0031398
+  }
+ },
+ {
+  "id": "v016",
+  "of": "dt016",
+  "verdict": "PASS",
+  "sha": "9686432c3e03f2b58e910303f044a89c8337ab1d",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.778436,
+   "ann_vol": 0.303704,
+   "sharpe": 2.563138,
+   "total_return": 0.690791,
+   "max_drawdown": -0.137279,
+   "mean_daily_net": 0.0021327
+  }
+ },
+ {
+  "id": "v017",
+  "of": "dt017",
+  "verdict": "PASS",
+  "sha": "5cea79bb98ec6b5ea35dccada563d0dec617ecf6",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.924464,
+   "ann_vol": 0.358887,
+   "sharpe": 5.362308,
+   "total_return": 2.789877,
+   "max_drawdown": -0.137279,
+   "mean_daily_net": 0.0052725
+  }
+ },
+ {
+  "id": "v024",
+  "of": "dt024",
+  "verdict": "PASS",
+  "sha": "e86532db440f1a68df4ad7e98d3887faef62e0d0",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.480686,
+   "ann_vol": 0.199658,
+   "sharpe": 2.407546,
+   "total_return": 0.391826,
+   "max_drawdown": -0.182426,
+   "mean_daily_net": 0.00131695
+  }
+ },
+ {
+  "id": "v026",
+  "of": "dt026",
+  "verdict": "PASS",
+  "sha": "7d3e43785489161894dadf9fde3b4ae6fba4fa32",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.906757,
+   "ann_vol": 0.243225,
+   "sharpe": 3.728059,
+   "total_return": 0.875631,
+   "max_drawdown": -0.122197,
+   "mean_daily_net": 0.00248427
+  }
+ },
+ {
+  "id": "v027",
+  "of": "dt027",
+  "verdict": "PASS",
+  "sha": "0890dfbc5c0d070f4aec0b2f6230020401969c3f",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.98853,
+   "ann_vol": 0.296517,
+   "sharpe": 3.333801,
+   "total_return": 0.968616,
+   "max_drawdown": -0.130871,
+   "mean_daily_net": 0.0027083
+  }
+ },
+ {
+  "id": "v029",
+  "of": "dt029",
+  "verdict": "PASS",
+  "sha": "c75f87045f487eca2b0ea775a0f8f064680bfd7c",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.579079,
+   "ann_vol": 0.383474,
+   "sharpe": 1.510087,
+   "total_return": 0.43855,
+   "max_drawdown": -0.196165,
+   "mean_daily_net": 0.00158652
+  }
+ },
+ {
+  "id": "v031",
+  "of": "dt031",
+  "verdict": "PASS",
+  "sha": "7b42860b7689d9ec7a17ba73218fc8cbe272b24d",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.478661,
+   "ann_vol": 0.310849,
+   "sharpe": 4.756854,
+   "total_return": 1.791274,
+   "max_drawdown": -0.044292,
+   "mean_daily_net": 0.00405113
+  }
+ },
+ {
+  "id": "v032",
+  "of": "dt032",
+  "verdict": "PASS",
+  "sha": "ab343659d88134c49cff645a96297d7bc46f2281",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.761161,
+   "ann_vol": 0.350938,
+   "sharpe": 2.168933,
+   "total_return": 0.652997,
+   "max_drawdown": -0.104095,
+   "mean_daily_net": 0.00208537
+  }
+ },
+ {
+  "id": "v034",
+  "of": "dt034",
+  "verdict": "PASS",
+  "sha": "7c690dba6e43798ed98883f553cd1c13c13b9737",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.817907,
+   "ann_vol": 0.326094,
+   "sharpe": 5.574794,
+   "total_return": 2.544558,
+   "max_drawdown": -0.047736,
+   "mean_daily_net": 0.00498057
+  }
+ },
+ {
+  "id": "v035",
+  "of": "dt035",
+  "verdict": "PASS",
+  "sha": "3dcd5f500b2276363654e83915a2ac683e29cfef",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.622654,
+   "ann_vol": 0.309117,
+   "sharpe": 2.0143,
+   "total_return": 0.511116,
+   "max_drawdown": -0.112198,
+   "mean_daily_net": 0.0017059
+  }
+ },
+ {
+  "id": "v036",
+  "of": "dt036",
+  "verdict": "PASS",
+  "sha": "c3de28a8396c9d88002d4c6c46e6fe3e23b7453e",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.729564,
+   "ann_vol": 0.341697,
+   "sharpe": 2.135121,
+   "total_return": 0.619325,
+   "max_drawdown": -0.175548,
+   "mean_daily_net": 0.00199881
+  }
+ },
+ {
+  "id": "v037",
+  "of": "dt037",
+  "verdict": "PASS",
+  "sha": "4af2f87d6744eb0517818c968c89ccc5d93c2163",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.555615,
+   "ann_vol": 0.313185,
+   "sharpe": 4.967083,
+   "total_return": 1.946251,
+   "max_drawdown": -0.099265,
+   "mean_daily_net": 0.00426196
+  }
+ },
+ {
+  "id": "v044",
+  "of": "dt044",
+  "verdict": "PASS",
+  "sha": "0762b45a856ca531083159b756a578da7a2dcc4b",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.989301,
+   "ann_vol": 0.236553,
+   "sharpe": 4.182158,
+   "total_return": 0.99294,
+   "max_drawdown": -0.051549,
+   "mean_daily_net": 0.00271041
+  }
+ },
+ {
+  "id": "v045",
+  "of": "dt045",
+  "verdict": "PASS",
+  "sha": "e62d1f6651e9f9183fcf82a5e3b3c8a2f4fe2825",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.629371,
+   "ann_vol": 0.302325,
+   "sharpe": 2.081772,
+   "total_return": 0.519886,
+   "max_drawdown": -0.139139,
+   "mean_daily_net": 0.0017243
+  }
+ },
+ {
+  "id": "v046",
+  "of": "dt046",
+  "verdict": "PASS",
+  "sha": "2e0bf688c8ffd68a5e61226e0a5dd90c75f50096",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.642356,
+   "ann_vol": 0.357754,
+   "sharpe": 4.590742,
+   "total_return": 2.098807,
+   "max_drawdown": -0.139139,
+   "mean_daily_net": 0.0044996
+  }
+ },
+ {
+  "id": "v058",
+  "of": "dt058",
+  "verdict": "FAIL",
+  "sha": "b593340d737f671be1a928dd3711ba929e1b537c",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.25448,
+   "ann_vol": 0.383353,
+   "sharpe": 0.663826,
+   "total_return": 0.139776,
+   "max_drawdown": -0.234109,
+   "mean_daily_net": 0.0006972
+  }
+ },
+ {
+  "id": "v060",
+  "of": "dt060",
+  "verdict": "PASS",
+  "sha": "54f77e0506a164d541df2602db2ed0d2c9d9beeb",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.115054,
+   "ann_vol": 0.310833,
+   "sharpe": 3.587315,
+   "total_return": 1.151923,
+   "max_drawdown": -0.070833,
+   "mean_daily_net": 0.00305494
+  }
+ },
+ {
+  "id": "v063",
+  "of": "dt063",
+  "verdict": "PASS",
+  "sha": "f9ccea85dce6dec2437fbe847e116768089ecac0",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.455693,
+   "ann_vol": 0.326055,
+   "sharpe": 4.464556,
+   "total_return": 1.736042,
+   "max_drawdown": -0.059147,
+   "mean_daily_net": 0.0039882
+  }
+ },
+ {
+  "id": "v064",
+  "of": "dt064",
+  "verdict": "PASS",
+  "sha": "a61123fac997d46897781fcd1a7ae2acf176afc7",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.337063,
+   "ann_vol": 0.308778,
+   "sharpe": 1.091603,
+   "total_return": 0.231368,
+   "max_drawdown": -0.145076,
+   "mean_daily_net": 0.00092346
+  }
+ },
+ {
+  "id": "v066",
+  "of": "dt066",
+  "verdict": "PASS",
+  "sha": "11f11fb5a60fb8eb230b415950df9356aea5b05f",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.194795,
+   "ann_vol": 0.313134,
+   "sharpe": 3.815597,
+   "total_return": 1.276071,
+   "max_drawdown": -0.117387,
+   "mean_daily_net": 0.00327341
+  }
+ },
+ {
+  "id": "v073",
+  "of": "dt073",
+  "verdict": "PASS",
+  "sha": "6322b86e1851fc01e8ea2c9186ab158bf5110be5",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.832574,
+   "ann_vol": 0.234337,
+   "sharpe": 3.552893,
+   "total_return": 0.78198,
+   "max_drawdown": -0.061138,
+   "mean_daily_net": 0.00228103
+  }
+ },
+ {
+  "id": "v074",
+  "of": "dt074",
+  "verdict": "PASS",
+  "sha": "b96d036b7190665ebfeb76eef165c84c77a97e35",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.480306,
+   "ann_vol": 0.301233,
+   "sharpe": 1.594468,
+   "total_return": 0.36611,
+   "max_drawdown": -0.140996,
+   "mean_daily_net": 0.00131591
+  }
+ },
+ {
+  "id": "v075",
+  "of": "dt075",
+  "verdict": "PASS",
+  "sha": "7f0303cc9dc5d0a7da9e495a08b47cd1e6b864b4",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.360247,
+   "ann_vol": 0.356796,
+   "sharpe": 3.812393,
+   "total_return": 1.533243,
+   "max_drawdown": -0.141713,
+   "mean_daily_net": 0.0037267
+  }
+ },
+ {
+  "id": "v089",
+  "of": "dt089",
+  "verdict": "PASS",
+  "sha": "949b5dc73057a4f70d23c53685967619ce474c20",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.820378,
+   "ann_vol": 0.393594,
+   "sharpe": 7.1657,
+   "total_return": 6.130956,
+   "max_drawdown": -0.033569,
+   "mean_daily_net": 0.00772706
+  }
+ },
+ {
+  "id": "v092",
+  "of": "dt092",
+  "verdict": "PASS",
+  "sha": "760166a76d9c266e0a58edb2c808075d7c006e0c",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.758114,
+   "ann_vol": 0.398249,
+   "sharpe": 6.92561,
+   "total_return": 5.809987,
+   "max_drawdown": -0.038445,
+   "mean_daily_net": 0.00755648
+  }
+ },
+ {
+  "id": "v093",
+  "of": "dt093",
+  "verdict": "PASS",
+  "sha": "f948c302d60eb3bbddb35460989c39133f36512e",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.525042,
+   "ann_vol": 0.448887,
+   "sharpe": 3.397385,
+   "total_return": 1.78041,
+   "max_drawdown": -0.118666,
+   "mean_daily_net": 0.0041782
+  }
+ },
+ {
+  "id": "v095",
+  "of": "dt095",
+  "verdict": "PASS",
+  "sha": "a48695ad43577ca89a2cc2c2ccfa37cbb516aa53",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.733293,
+   "ann_vol": 0.422921,
+   "sharpe": 6.462889,
+   "total_return": 5.644865,
+   "max_drawdown": -0.072393,
+   "mean_daily_net": 0.00748847
+  }
+ },
+ {
+  "id": "v102",
+  "of": "dt102",
+  "verdict": "PASS",
+  "sha": "1eca4a284b0e7d6c67dafb7d87d873d5b4ec1cd8",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.786008,
+   "ann_vol": 0.355724,
+   "sharpe": 5.020762,
+   "total_return": 2.441964,
+   "max_drawdown": -0.079942,
+   "mean_daily_net": 0.00489317
+  }
+ },
+ {
+  "id": "v104",
+  "of": "dt104",
+  "verdict": "PASS",
+  "sha": "4a7d665b25540152ad2d5f5a5f869bf589433069",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.891476,
+   "ann_vol": 0.485987,
+   "sharpe": 5.949703,
+   "total_return": 6.284254,
+   "max_drawdown": -0.155333,
+   "mean_daily_net": 0.00792185
+  }
+ },
+ {
+  "id": "v111",
+  "of": "dt111",
+  "verdict": "PASS",
+  "sha": "493f6893485e93d5dec919d21119d3ae9c3e6267",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 0.601593,
+   "ann_vol": 0.294303,
+   "sharpe": 2.044127,
+   "total_return": 0.492806,
+   "max_drawdown": -0.118706,
+   "mean_daily_net": 0.0016482
+  }
+ },
+ {
+  "id": "v114",
+  "of": "dt114",
+  "verdict": "PASS",
+  "sha": "c1936dc3d9cc52838f2aa88ec76a8cd1e3943eac",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.102979,
+   "ann_vol": 0.433934,
+   "sharpe": 2.541811,
+   "total_return": 1.060991,
+   "max_drawdown": -0.167569,
+   "mean_daily_net": 0.00302186
+  }
+ },
+ {
+  "id": "v118",
+  "of": "dt118",
+  "verdict": "PASS",
+  "sha": "04c4023f3c7aaa5494764987dafb86c9e4176154",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.455378,
+   "ann_vol": 0.393594,
+   "sharpe": 6.238349,
+   "total_return": 4.497115,
+   "max_drawdown": -0.037434,
+   "mean_daily_net": 0.00672706
+  }
+ },
+ {
+  "id": "v121",
+  "of": "dt121",
+  "verdict": "PASS",
+  "sha": "e8cf83a10af89a6b833fa3c6c1f038967df4a3e6",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.394507,
+   "ann_vol": 0.398224,
+   "sharpe": 6.012969,
+   "total_return": 4.25469,
+   "max_drawdown": -0.048462,
+   "mean_daily_net": 0.00656029
+  }
+ },
+ {
+  "id": "v122",
+  "of": "dt122",
+  "verdict": "PASS",
+  "sha": "4d989d01cda1a5b0a6b9349a39918036fc782118",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.247809,
+   "ann_vol": 0.448141,
+   "sharpe": 2.784413,
+   "total_return": 1.280631,
+   "max_drawdown": -0.135381,
+   "mean_daily_net": 0.00341866
+  }
+ },
+ {
+  "id": "v124",
+  "of": "dt124",
+  "verdict": "PASS",
+  "sha": "940a2d78843a76fc1038f961b39505d61705feac",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.372473,
+   "ann_vol": 0.422852,
+   "sharpe": 5.610647,
+   "total_return": 4.13739,
+   "max_drawdown": -0.090413,
+   "mean_daily_net": 0.00649993
+  }
+ },
+ {
+  "id": "v131",
+  "of": "dt131",
+  "verdict": "PASS",
+  "sha": "85a14da69ddc84101a9063c20ea2214bedb26e84",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.641819,
+   "ann_vol": 0.352791,
+   "sharpe": 4.653794,
+   "total_return": 2.107078,
+   "max_drawdown": -0.093723,
+   "mean_daily_net": 0.00449813
+  }
+ },
+ {
+  "id": "v133",
+  "of": "dt133",
+  "verdict": "PASS",
+  "sha": "5c9096375033b4e49501611144185884f34c7381",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.620512,
+   "ann_vol": 0.484522,
+   "sharpe": 5.408454,
+   "total_return": 5.007547,
+   "max_drawdown": -0.159698,
+   "mean_daily_net": 0.00717949
+  }
+ },
+ {
+  "id": "v147",
+  "of": "dt147",
+  "verdict": "PASS",
+  "sha": "e599255aabc151aba644b4ed858dfd193f18965f",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.090378,
+   "ann_vol": 0.393594,
+   "sharpe": 5.310998,
+   "total_return": 3.236523,
+   "max_drawdown": -0.041316,
+   "mean_daily_net": 0.00572706
+  }
+ },
+ {
+  "id": "v150",
+  "of": "dt150",
+  "verdict": "PASS",
+  "sha": "3fae5e2e5c08f9233f26d9665086c92fe5adc148",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.0309,
+   "ann_vol": 0.398202,
+   "sharpe": 5.10017,
+   "total_return": 3.053554,
+   "max_drawdown": -0.065492,
+   "mean_daily_net": 0.00556411
+  }
+ },
+ {
+  "id": "v153",
+  "of": "dt153",
+  "verdict": "PASS",
+  "sha": "104d8ea6dbe6dfa9c208b04a3989df924010dcc7",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.011652,
+   "ann_vol": 0.422792,
+   "sharpe": 4.758015,
+   "total_return": 2.970889,
+   "max_drawdown": -0.116513,
+   "mean_daily_net": 0.00551138
+  }
+ },
+ {
+  "id": "v160",
+  "of": "dt160",
+  "verdict": "PASS",
+  "sha": "97a3de6ccf9e418d52d5955a1f4e3198e1542ae7",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 1.49763,
+   "ann_vol": 0.350083,
+   "sharpe": 4.277927,
+   "total_return": 1.80449,
+   "max_drawdown": -0.107312,
+   "mean_daily_net": 0.0041031
+  }
+ },
+ {
+  "id": "v162",
+  "of": "dt162",
+  "verdict": "PASS",
+  "sha": "c73c1de718992b36f3fd7bd3a3ac28dc79b72956",
+  "stats": {
+   "n_days": 262,
+   "ann_arith_return": 2.349549,
+   "ann_vol": 0.483196,
+   "sharpe": 4.862514,
+   "total_return": 3.953662,
+   "max_drawdown": -0.164073,
+   "mean_daily_net": 0.00643712
+  }
+ }
+]

@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20336",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "gapfade",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:43:19+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "039706c20e8bae61ff8236129aa4caa01ad74f60 2026-09-19T12:43:20+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.636996,
+  "stats": {
+   "ann_arith_return": 0.038092,
+   "ann_vol": 0.15536,
+   "max_drawdown": -0.14492,
+   "mean_daily_net": 0.00010436,
+   "n_days": 731,
+   "sharpe": 0.245186,
+   "total_return": 0.053745
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

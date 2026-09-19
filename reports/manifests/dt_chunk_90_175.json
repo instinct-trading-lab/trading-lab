@@ -1,0 +1,2124 @@
+[
+ {
+  "id": "dt090",
+  "verdict": "FAIL",
+  "sha": "8f355bac1144f81ff507fb4a98dc0ceff1384fed",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt090",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:53+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.551514,
+   "ann_vol": 0.593236,
+   "sharpe": 2.615338,
+   "total_return": 14.731573,
+   "max_drawdown": -0.301531,
+   "mean_daily_net": 0.00425072
+  }
+ },
+ {
+  "id": "dt091",
+  "verdict": "FAIL",
+  "sha": "482ba7b6518e76e0cecb3b90209784497e5f7f47",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt091",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:55+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.166958,
+   "ann_vol": 0.550989,
+   "sharpe": 2.117932,
+   "total_return": 6.616855,
+   "max_drawdown": -0.423827,
+   "mean_daily_net": 0.00319715
+  }
+ },
+ {
+  "id": "dt092",
+  "verdict": "PASS",
+  "sha": "fe9df917eee633266eec91d994ad80e77774a699",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt092",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:56+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.718472,
+   "ann_vol": 0.438156,
+   "sharpe": 6.204346,
+   "total_return": 188.1982,
+   "max_drawdown": -0.090386,
+   "mean_daily_net": 0.00744787
+  }
+ },
+ {
+  "id": "dt093",
+  "verdict": "PASS",
+  "sha": "7b06239832028446470e46a07f68e588fe0f8b79",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt093",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:57+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.65341,
+   "ann_vol": 0.552983,
+   "sharpe": 2.989982,
+   "total_return": 19.202121,
+   "max_drawdown": -0.224469,
+   "mean_daily_net": 0.00452989
+  }
+ },
+ {
+  "id": "dt094",
+  "verdict": "FAIL",
+  "sha": "096cf77d293b3ab8067244b9b706fede480cd1df",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt094",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T11:59:58+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.419746,
+   "ann_vol": 0.514505,
+   "sharpe": 2.759442,
+   "total_return": 12.104716,
+   "max_drawdown": -0.309898,
+   "mean_daily_net": 0.00388972
+  }
+ },
+ {
+  "id": "dt095",
+  "verdict": "PASS",
+  "sha": "100706333bb778f846eea0e88604a1c9adaa92da",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt095",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:00+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 3.073156,
+   "ann_vol": 0.481278,
+   "sharpe": 6.385404,
+   "total_return": 366.872055,
+   "max_drawdown": -0.142535,
+   "mean_daily_net": 0.00841961
+  }
+ },
+ {
+  "id": "dt096",
+  "verdict": "FAIL",
+  "sha": "bb0e7c63870336f0af89e1f56679c23661db031f",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt096",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:01+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.089897,
+   "ann_vol": 0.304631,
+   "sharpe": -0.295102,
+   "total_return": -0.239486,
+   "max_drawdown": -0.565607,
+   "mean_daily_net": -0.00024629
+  }
+ },
+ {
+  "id": "dt097",
+  "verdict": "FAIL",
+  "sha": "958bce3556db1760ddfc215d9e8534899e959ec2",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt097",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:02+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.070715,
+   "ann_vol": 0.364904,
+   "sharpe": -0.193791,
+   "total_return": -0.241445,
+   "max_drawdown": -0.541418,
+   "mean_daily_net": -0.00019374
+  }
+ },
+ {
+  "id": "dt098",
+  "verdict": "FAIL",
+  "sha": "6df047e17686f0993cf9ed5c215abf06464091e0",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt098",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:04+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.198185,
+   "ann_vol": 0.453474,
+   "sharpe": -0.437038,
+   "total_return": -0.454926,
+   "max_drawdown": -0.644201,
+   "mean_daily_net": -0.00054297
+  }
+ },
+ {
+  "id": "dt099",
+  "verdict": "FAIL",
+  "sha": "f9a46de47d658d206c83a4ae4db0b4f767e76bf0",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt099",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:05+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.050782,
+   "ann_vol": 0.217041,
+   "sharpe": -0.233976,
+   "total_return": -0.138841,
+   "max_drawdown": -0.340883,
+   "mean_daily_net": -0.00013913
+  }
+ },
+ {
+  "id": "dt100",
+  "verdict": "FAIL",
+  "sha": "0af1c278621b5d9feea5dc6af09c7b954af5b55d",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt100",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:06+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.050647,
+   "ann_vol": 0.279256,
+   "sharpe": -0.181363,
+   "total_return": -0.16558,
+   "max_drawdown": -0.311721,
+   "mean_daily_net": -0.00013876
+  }
+ },
+ {
+  "id": "dt101",
+  "verdict": "FAIL",
+  "sha": "8e1ceeba1cebdd2d2eda8a695964007bd47be8f5",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt101",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:07+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.233276,
+   "ann_vol": 0.358031,
+   "sharpe": -0.651553,
+   "total_return": -0.450489,
+   "max_drawdown": -0.586571,
+   "mean_daily_net": -0.00063911
+  }
+ },
+ {
+  "id": "dt102",
+  "verdict": "PASS",
+  "sha": "2576426b0abad40c39cba6de811659fd88dc83dc",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt102",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:09+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.596934,
+   "ann_vol": 0.398316,
+   "sharpe": 4.009218,
+   "total_return": 19.881096,
+   "max_drawdown": -0.104227,
+   "mean_daily_net": 0.00437516
+  }
+ },
+ {
+  "id": "dt103",
+  "verdict": "FAIL",
+  "sha": "67801d9e89ab2af1831aad2db981d6acb1c79fb4",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "short",
+   "cost_bp": 0,
+   "attempt_id": "dt103",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:11+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.267656,
+   "ann_vol": 0.38859,
+   "sharpe": 3.262196,
+   "total_return": 9.859196,
+   "max_drawdown": -0.260849,
+   "mean_daily_net": 0.00347303
+  }
+ },
+ {
+  "id": "dt104",
+  "verdict": "PASS",
+  "sha": "a0830bfea9227545c54b6fd7b98b8020cecb3261",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "both",
+   "cost_bp": 0,
+   "attempt_id": "dt104",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:12+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.86459,
+   "ann_vol": 0.507586,
+   "sharpe": 5.64355,
+   "total_return": 235.571474,
+   "max_drawdown": -0.124931,
+   "mean_daily_net": 0.00784819
+  }
+ },
+ {
+  "id": "dt105",
+  "verdict": "FAIL",
+  "sha": "fe939104cae00b03b418913e9c5848c903ee60f5",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt105",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:15+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.274717,
+   "ann_vol": 0.607775,
+   "sharpe": -0.452005,
+   "total_return": -0.600195,
+   "max_drawdown": -0.754393,
+   "mean_daily_net": -0.00075265
+  }
+ },
+ {
+  "id": "dt106",
+  "verdict": "FAIL",
+  "sha": "18245d737b287c7aa4188c28943b281c1dd4f80f",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt106",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:15+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.743138,
+   "ann_vol": 0.63987,
+   "sharpe": -1.16139,
+   "total_return": -0.851212,
+   "max_drawdown": -0.854276,
+   "mean_daily_net": -0.00203599
+  }
+ },
+ {
+  "id": "dt107",
+  "verdict": "FAIL",
+  "sha": "9557fce338ef70d073eaa62ba1effe09034bad83",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt107",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:16+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.804905,
+   "ann_vol": 0.614508,
+   "sharpe": 1.309836,
+   "total_return": 2.454638,
+   "max_drawdown": -0.328743,
+   "mean_daily_net": 0.00220522
+  }
+ },
+ {
+  "id": "dt108",
+  "verdict": "FAIL",
+  "sha": "4aa2a0c760622fd3f461d76eb0619959cf42fe32",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt108",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:17+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.203992,
+   "ann_vol": 0.650545,
+   "sharpe": -0.313571,
+   "total_return": -0.564943,
+   "max_drawdown": -0.692777,
+   "mean_daily_net": -0.00055888
+  }
+ },
+ {
+  "id": "dt109",
+  "verdict": "FAIL",
+  "sha": "8408aa5d868c890ff777323fdbcccaf5d072a377",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt109",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:18+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.332924,
+   "ann_vol": 0.563653,
+   "sharpe": 0.590655,
+   "total_return": 0.420601,
+   "max_drawdown": -0.439427,
+   "mean_daily_net": 0.00091212
+  }
+ },
+ {
+  "id": "dt110",
+  "verdict": "FAIL",
+  "sha": "14eb1581ded23372f465ee71917507c31ccf4983",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 8,
+   "cost_bp": 0,
+   "attempt_id": "dt110",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:19+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.569605,
+   "ann_vol": 0.671505,
+   "sharpe": 0.848251,
+   "total_return": 0.998801,
+   "max_drawdown": -0.504976,
+   "mean_daily_net": 0.00156056
+  }
+ },
+ {
+  "id": "dt111",
+  "verdict": "PASS",
+  "sha": "57e6ec01ba2a5a3d4df783094feeb0f92bb2f024",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt111",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:20+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.416623,
+   "ann_vol": 0.302399,
+   "sharpe": 1.377724,
+   "total_return": 1.100028,
+   "max_drawdown": -0.220133,
+   "mean_daily_net": 0.00114143
+  }
+ },
+ {
+  "id": "dt112",
+  "verdict": "FAIL",
+  "sha": "3f006a267105a4a410acef91aa68e1edca650d69",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt112",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:21+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.335021,
+   "ann_vol": 0.357614,
+   "sharpe": 0.936824,
+   "total_return": 0.719488,
+   "max_drawdown": -0.242257,
+   "mean_daily_net": 0.00091787
+  }
+ },
+ {
+  "id": "dt113",
+  "verdict": "FAIL",
+  "sha": "93a1c115f8fd1c5d338a455a6869654a3bd93bca",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 2,
+   "cost_bp": 0,
+   "attempt_id": "dt113",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:22+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.843327,
+   "ann_vol": 0.384011,
+   "sharpe": 2.196098,
+   "total_return": 3.662405,
+   "max_drawdown": -0.302608,
+   "mean_daily_net": 0.00231048
+  }
+ },
+ {
+  "id": "dt114",
+  "verdict": "PASS",
+  "sha": "e02cd63404401b37889f9d9fce03f50ab3999bdb",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 4,
+   "cost_bp": 0,
+   "attempt_id": "dt114",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:23+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.723479,
+   "ann_vol": 0.472488,
+   "sharpe": 1.531212,
+   "total_return": 2.396711,
+   "max_drawdown": -0.243606,
+   "mean_daily_net": 0.00198213
+  }
+ },
+ {
+  "id": "dt115",
+  "verdict": "FAIL",
+  "sha": "d8aa23e5c2fb493e9b676a876d9707d8cb2845f9",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "nr7",
+   "cost_bp": 0,
+   "attempt_id": "dt115",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:24+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.211699,
+   "ann_vol": 0.200406,
+   "sharpe": 1.056352,
+   "total_return": 0.46835,
+   "max_drawdown": -0.282799,
+   "mean_daily_net": 0.00058
+  }
+ },
+ {
+  "id": "dt116",
+  "verdict": "FAIL",
+  "sha": "21f71e8b408cfdbc523dc7088cc0d71e0b25aa7c",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt116",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:26+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.160855,
+   "ann_vol": 0.616842,
+   "sharpe": 1.881932,
+   "total_return": 6.011679,
+   "max_drawdown": -0.420138,
+   "mean_daily_net": 0.00318042
+  }
+ },
+ {
+  "id": "dt117",
+  "verdict": "FAIL",
+  "sha": "6436ddb6b6aba313d66b64d29cf4eac53e1e459f",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt117",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:27+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.57987,
+   "ann_vol": 0.611442,
+   "sharpe": 0.948365,
+   "total_return": 1.187807,
+   "max_drawdown": -0.655451,
+   "mean_daily_net": 0.00158869
+  }
+ },
+ {
+  "id": "dt118",
+  "verdict": "PASS",
+  "sha": "dd93f6dfb5e99a16fb557c89c057d9e5ccde82e7",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt118",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:28+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.007859,
+   "ann_vol": 0.381081,
+   "sharpe": 5.268847,
+   "total_return": 47.061867,
+   "max_drawdown": -0.062647,
+   "mean_daily_net": 0.00550098
+  }
+ },
+ {
+  "id": "dt119",
+  "verdict": "FAIL",
+  "sha": "c2ad07dda63be0b2cdd45395bc550819b00928de",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt119",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:30+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.250426,
+   "ann_vol": 0.592822,
+   "sharpe": 2.109277,
+   "total_return": 7.62599,
+   "max_drawdown": -0.324505,
+   "mean_daily_net": 0.00342582
+  }
+ },
+ {
+  "id": "dt120",
+  "verdict": "FAIL",
+  "sha": "bb7b4dca3279af297145f5cc6d990939fca806f0",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt120",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:31+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.872861,
+   "ann_vol": 0.550629,
+   "sharpe": 1.585206,
+   "total_return": 3.232503,
+   "max_drawdown": -0.475876,
+   "mean_daily_net": 0.0023914
+  }
+ },
+ {
+  "id": "dt121",
+  "verdict": "PASS",
+  "sha": "eed31d929fb8283df72145e1dd29b34df145e1a4",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt121",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:32+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.353971,
+   "ann_vol": 0.438148,
+   "sharpe": 5.372547,
+   "total_return": 90.604994,
+   "max_drawdown": -0.105812,
+   "mean_daily_net": 0.00644924
+  }
+ },
+ {
+  "id": "dt122",
+  "verdict": "PASS",
+  "sha": "ba17b298968852afa53c22201c4c297c17aa31f2",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt122",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:33+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.37629,
+   "ann_vol": 0.552323,
+   "sharpe": 2.491823,
+   "total_return": 10.625713,
+   "max_drawdown": -0.246857,
+   "mean_daily_net": 0.00377066
+  }
+ },
+ {
+  "id": "dt123",
+  "verdict": "FAIL",
+  "sha": "96857186b4c8d93b312c53f5821b8cbcdb880c36",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt123",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:35+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.159602,
+   "ann_vol": 0.513783,
+   "sharpe": 2.256988,
+   "total_return": 6.799152,
+   "max_drawdown": -0.356193,
+   "mean_daily_net": 0.00317699
+  }
+ },
+ {
+  "id": "dt124",
+  "verdict": "PASS",
+  "sha": "aadf4be8f6c24061d54d54de539455ba6ab03ed6",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt124",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:36+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.710653,
+   "ann_vol": 0.481237,
+   "sharpe": 5.632676,
+   "total_return": 177.939481,
+   "max_drawdown": -0.148361,
+   "mean_daily_net": 0.00742645
+  }
+ },
+ {
+  "id": "dt125",
+  "verdict": "FAIL",
+  "sha": "181a195344946c7ecabd7fd4358c4758db6bd0fc",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt125",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:37+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -2.100143,
+   "ann_vol": 0.305757,
+   "sharpe": -6.868675,
+   "total_return": -0.986615,
+   "max_drawdown": -0.986642,
+   "mean_daily_net": -0.00575382
+  }
+ },
+ {
+  "id": "dt126",
+  "verdict": "FAIL",
+  "sha": "78ed0ea41b559ff48e881056f574433f882db57a",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt126",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:38+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.830305,
+   "ann_vol": 0.364327,
+   "sharpe": -5.023803,
+   "total_return": -0.977862,
+   "max_drawdown": -0.978149,
+   "mean_daily_net": -0.00501453
+  }
+ },
+ {
+  "id": "dt127",
+  "verdict": "FAIL",
+  "sha": "ed2281b6b44a7b6f8cd659229f69963238b4bef3",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt127",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:40+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.644704,
+   "ann_vol": 0.453172,
+   "sharpe": -3.629317,
+   "total_return": -0.97018,
+   "max_drawdown": -0.971561,
+   "mean_daily_net": -0.00450604
+  }
+ },
+ {
+  "id": "dt128",
+  "verdict": "FAIL",
+  "sha": "814c5df1eb56b445ec9acac97a2c25b74310bd71",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt128",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:41+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.795762,
+   "ann_vol": 0.217395,
+   "sharpe": -3.660435,
+   "total_return": -0.806717,
+   "max_drawdown": -0.807254,
+   "mean_daily_net": -0.00218017
+  }
+ },
+ {
+  "id": "dt129",
+  "verdict": "FAIL",
+  "sha": "fba22f2187a291811a0062986ab539b5068e8ff1",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt129",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:42+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.755681,
+   "ann_vol": 0.279282,
+   "sharpe": -2.705795,
+   "total_return": -0.797083,
+   "max_drawdown": -0.799411,
+   "mean_daily_net": -0.00207036
+  }
+ },
+ {
+  "id": "dt130",
+  "verdict": "FAIL",
+  "sha": "10e8a9d2c60007a20b4ade3e2e4ef8ac27b51689",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt130",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:43+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -0.884384,
+   "ann_vol": 0.357904,
+   "sharpe": -2.471011,
+   "total_return": -0.851208,
+   "max_drawdown": -0.865175,
+   "mean_daily_net": -0.00242297
+  }
+ },
+ {
+  "id": "dt131",
+  "verdict": "PASS",
+  "sha": "0f8017870517de7268a0e0ffdf42e7adcd933e5b",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "long",
+   "cost_bp": 5,
+   "attempt_id": "dt131",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:44+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.438651,
+   "ann_vol": 0.396149,
+   "sharpe": 3.631593,
+   "total_return": 14.249909,
+   "max_drawdown": -0.112357,
+   "mean_daily_net": 0.00394151
+  }
+ },
+ {
+  "id": "dt132",
+  "verdict": "FAIL",
+  "sha": "a4592fd0d5d2d4ac6190762cf1b1f343236d4afe",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "short",
+   "cost_bp": 5,
+   "attempt_id": "dt132",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:46+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.128347,
+   "ann_vol": 0.386676,
+   "sharpe": 2.918066,
+   "total_return": 7.232644,
+   "max_drawdown": -0.270087,
+   "mean_daily_net": 0.00309136
+  }
+ },
+ {
+  "id": "dt133",
+  "verdict": "PASS",
+  "sha": "c36b85cc4ac2e6bfbd0f68358277bbb8ddc0d96a",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "both",
+   "cost_bp": 5,
+   "attempt_id": "dt133",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:48+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.590465,
+   "ann_vol": 0.506245,
+   "sharpe": 5.117019,
+   "total_return": 136.302247,
+   "max_drawdown": -0.144265,
+   "mean_daily_net": 0.00709717
+  }
+ },
+ {
+  "id": "dt134",
+  "verdict": "FAIL",
+  "sha": "50dfe5e8962649d6b005460f45c335f3323f8355",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt134",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:50+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -7.28087,
+   "ann_vol": 0.607891,
+   "sharpe": -11.97727,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.01994759
+  }
+ },
+ {
+  "id": "dt135",
+  "verdict": "FAIL",
+  "sha": "4f9008e95a939e352004d6ab8545acd4f31aaa42",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt135",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:50+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.635556,
+   "ann_vol": 0.640034,
+   "sharpe": -7.242669,
+   "total_return": -0.999943,
+   "max_drawdown": -0.999943,
+   "mean_daily_net": -0.01270015
+  }
+ },
+ {
+  "id": "dt136",
+  "verdict": "FAIL",
+  "sha": "a69135c87ade0d6987c2e27aa78460d75d7f520d",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt136",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:51+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -6.201248,
+   "ann_vol": 0.614234,
+   "sharpe": -10.095907,
+   "total_return": -0.999998,
+   "max_drawdown": -0.999998,
+   "mean_daily_net": -0.01698972
+  }
+ },
+ {
+  "id": "dt137",
+  "verdict": "FAIL",
+  "sha": "3e678e9d352a1ebf19b52a2914db77255f0f2cc5",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt137",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:52+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.09641,
+   "ann_vol": 0.650769,
+   "sharpe": -6.294724,
+   "total_return": -0.999831,
+   "max_drawdown": -0.999831,
+   "mean_daily_net": -0.01122304
+  }
+ },
+ {
+  "id": "dt138",
+  "verdict": "FAIL",
+  "sha": "5f36f0eaeb2a11c6c7718cde15e7bf4976641797",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt138",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:53+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -6.673228,
+   "ann_vol": 0.563796,
+   "sharpe": -11.836239,
+   "total_return": -0.999999,
+   "max_drawdown": -0.999999,
+   "mean_daily_net": -0.01828282
+  }
+ },
+ {
+  "id": "dt139",
+  "verdict": "FAIL",
+  "sha": "0fb8d267b1f02ba0528b922c060cfdfd9252110d",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 8,
+   "cost_bp": 5,
+   "attempt_id": "dt139",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:54+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.322813,
+   "ann_vol": 0.671783,
+   "sharpe": -4.946256,
+   "total_return": -0.999209,
+   "max_drawdown": -0.999269,
+   "mean_daily_net": -0.0091036
+  }
+ },
+ {
+  "id": "dt140",
+  "verdict": "FAIL",
+  "sha": "28622339926c0f5c531ddee9c87ef08c4a780ebc",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt140",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:54+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -2.073965,
+   "ann_vol": 0.307864,
+   "sharpe": -6.736626,
+   "total_return": -0.985909,
+   "max_drawdown": -0.985918,
+   "mean_daily_net": -0.0056821
+  }
+ },
+ {
+  "id": "dt141",
+  "verdict": "FAIL",
+  "sha": "98e8ad120e6ac3dc8fb2cf20b954500cb3dcccf3",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt141",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:55+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.844993,
+   "ann_vol": 0.357709,
+   "sharpe": -5.1578,
+   "total_return": -0.978394,
+   "max_drawdown": -0.978499,
+   "mean_daily_net": -0.00505477
+  }
+ },
+ {
+  "id": "dt142",
+  "verdict": "FAIL",
+  "sha": "2e8394a70ffa2eaae4dfd42c55f7cc1ef3592281",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 2,
+   "cost_bp": 5,
+   "attempt_id": "dt142",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:56+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.803558,
+   "ann_vol": 0.389536,
+   "sharpe": -9.764335,
+   "total_return": -0.999596,
+   "max_drawdown": -0.999596,
+   "mean_daily_net": -0.01042071
+  }
+ },
+ {
+  "id": "dt143",
+  "verdict": "FAIL",
+  "sha": "91219d080ffc63d1a377b97f65ee65404ef7f660",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 4,
+   "cost_bp": 5,
+   "attempt_id": "dt143",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:57+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.004664,
+   "ann_vol": 0.472517,
+   "sharpe": -6.358842,
+   "total_return": -0.998112,
+   "max_drawdown": -0.998119,
+   "mean_daily_net": -0.00823196
+  }
+ },
+ {
+  "id": "dt144",
+  "verdict": "FAIL",
+  "sha": "1e75770ba03fe72b6360b603dbdb18ec44db4fb7",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "nr7",
+   "cost_bp": 5,
+   "attempt_id": "dt144",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:58+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.159271,
+   "ann_vol": 0.19961,
+   "sharpe": 0.797908,
+   "total_return": 0.322378,
+   "max_drawdown": -0.301459,
+   "mean_daily_net": 0.00043636
+  }
+ },
+ {
+  "id": "dt145",
+  "verdict": "FAIL",
+  "sha": "40d695775f82a514e2e2fc0b4bc3212c3e99e682",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt145",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:00:59+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.841292,
+   "ann_vol": 0.61664,
+   "sharpe": 1.364318,
+   "total_return": 2.701854,
+   "max_drawdown": -0.469715,
+   "mean_daily_net": 0.00230491
+  }
+ },
+ {
+  "id": "dt146",
+  "verdict": "FAIL",
+  "sha": "f4959072733a0b8a9139a5b75073ac1aad320fad",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt146",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:01+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.267298,
+   "ann_vol": 0.611342,
+   "sharpe": 0.437232,
+   "total_return": 0.169979,
+   "max_drawdown": -0.69418,
+   "mean_daily_net": 0.00073232
+  }
+ },
+ {
+  "id": "dt147",
+  "verdict": "PASS",
+  "sha": "350a47dd11641a90549c252dba3a2369882cf8a0",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt147",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:02+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.642859,
+   "ann_vol": 0.381081,
+   "sharpe": 4.311046,
+   "total_return": 22.216371,
+   "max_drawdown": -0.069684,
+   "mean_daily_net": 0.00450098
+  }
+ },
+ {
+  "id": "dt148",
+  "verdict": "FAIL",
+  "sha": "788634be2e34d0e6dc7cf93f647e150afa428098",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt148",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:03+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.949339,
+   "ann_vol": 0.592497,
+   "sharpe": 1.602268,
+   "total_return": 3.726995,
+   "max_drawdown": -0.350631,
+   "mean_daily_net": 0.00260093
+  }
+ },
+ {
+  "id": "dt149",
+  "verdict": "FAIL",
+  "sha": "7db418fe183742f32fc13191137b23f4e584d94b",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt149",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:05+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.578764,
+   "ann_vol": 0.550373,
+   "sharpe": 1.051585,
+   "total_return": 1.350519,
+   "max_drawdown": -0.530368,
+   "mean_daily_net": 0.00158565
+  }
+ },
+ {
+  "id": "dt150",
+  "verdict": "PASS",
+  "sha": "fd4524b821dcb693ee0cbaba33afcb37d5992a42",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 4,
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt150",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:06+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.98947,
+   "ann_vol": 0.438141,
+   "sharpe": 4.540705,
+   "total_return": 43.320829,
+   "max_drawdown": -0.135775,
+   "mean_daily_net": 0.0054506
+  }
+ },
+ {
+  "id": "dt151",
+  "verdict": "FAIL",
+  "sha": "8989c2b7b10d5784f8b9c03aeae71159e423c9d3",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt151",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:07+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.09917,
+   "ann_vol": 0.551782,
+   "sharpe": 1.992036,
+   "total_return": 5.686561,
+   "max_drawdown": -0.268621,
+   "mean_daily_net": 0.00301142
+  }
+ },
+ {
+  "id": "dt152",
+  "verdict": "FAIL",
+  "sha": "0b1c3ab2fd09804fdf5fccc8ca9263664430d32d",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt152",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:08+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.899459,
+   "ann_vol": 0.513206,
+   "sharpe": 1.752626,
+   "total_return": 3.63919,
+   "max_drawdown": -0.399425,
+   "mean_daily_net": 0.00246427
+  }
+ },
+ {
+  "id": "dt153",
+  "verdict": "PASS",
+  "sha": "2abb2455227c8cc52e14caa6068b573c9b3b025b",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "orb",
+   "k": 8,
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt153",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:10+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.34815,
+   "ann_vol": 0.481201,
+   "sharpe": 4.879767,
+   "total_return": 85.976987,
+   "max_drawdown": -0.158797,
+   "mean_daily_net": 0.00643329
+  }
+ },
+ {
+  "id": "dt154",
+  "verdict": "FAIL",
+  "sha": "dcd1cc5e11dcd53ab33930be8c1ded4b53079ebf",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt154",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:11+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.11039,
+   "ann_vol": 0.309574,
+   "sharpe": -13.277556,
+   "total_return": -0.99977,
+   "max_drawdown": -0.99977,
+   "mean_daily_net": -0.01126134
+  }
+ },
+ {
+  "id": "dt155",
+  "verdict": "FAIL",
+  "sha": "fa843424dc7f908f5ee869b674fc48170e9de345",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt155",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:12+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.589894,
+   "ann_vol": 0.36535,
+   "sharpe": -9.825902,
+   "total_return": -0.999366,
+   "max_drawdown": -0.999368,
+   "mean_daily_net": -0.00983533
+  }
+ },
+ {
+  "id": "dt156",
+  "verdict": "FAIL",
+  "sha": "4ead592ddf0c1a23b99b8e9c08a91c9000cb97a1",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 2,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt156",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:14+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -3.091222,
+   "ann_vol": 0.453644,
+   "sharpe": -6.814202,
+   "total_return": -0.998389,
+   "max_drawdown": -0.998408,
+   "mean_daily_net": -0.0084691
+  }
+ },
+ {
+  "id": "dt157",
+  "verdict": "FAIL",
+  "sha": "5f8a3a91c8e5759769cb5a514739c6c54bca9980",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt157",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:15+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.540741,
+   "ann_vol": 0.219926,
+   "sharpe": -7.005726,
+   "total_return": -0.956793,
+   "max_drawdown": -0.95687,
+   "mean_daily_net": -0.00422121
+  }
+ },
+ {
+  "id": "dt158",
+  "verdict": "FAIL",
+  "sha": "5fb2ce495d8ad4e0c421ea94f2829d545fd7479c",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt158",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:16+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.460715,
+   "ann_vol": 0.280807,
+   "sharpe": -5.201848,
+   "total_return": -0.950831,
+   "max_drawdown": -0.951346,
+   "mean_daily_net": -0.00400196
+  }
+ },
+ {
+  "id": "dt159",
+  "verdict": "FAIL",
+  "sha": "c0b19eb8ceee9bfa11000f542a635395a629cdee",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "fade",
+   "q": 3,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt159",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:17+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -1.535492,
+   "ann_vol": 0.358698,
+   "sharpe": -4.280742,
+   "total_return": -0.959832,
+   "max_drawdown": -0.960124,
+   "mean_daily_net": -0.00420683
+  }
+ },
+ {
+  "id": "dt160",
+  "verdict": "PASS",
+  "sha": "f7a50864057eeb77c08eedf414014b5673804827",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "long",
+   "cost_bp": 10,
+   "attempt_id": "dt160",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:19+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.280368,
+   "ann_vol": 0.394198,
+   "sharpe": 3.248035,
+   "total_return": 10.133857,
+   "max_drawdown": -0.120421,
+   "mean_daily_net": 0.00350786
+  }
+ },
+ {
+  "id": "dt161",
+  "verdict": "FAIL",
+  "sha": "c7795cab99f32ba2e49b3ef22b6a9bac36c24c73",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "short",
+   "cost_bp": 10,
+   "attempt_id": "dt161",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:21+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.989038,
+   "ann_vol": 0.384977,
+   "sharpe": 2.569081,
+   "total_return": 5.239667,
+   "max_drawdown": -0.284071,
+   "mean_daily_net": 0.00270969
+  }
+ },
+ {
+  "id": "dt162",
+  "verdict": "PASS",
+  "sha": "3e06a79f32fb8c3d3fa58cd2a0fed29e5d635510",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "pdbreak",
+   "direction": "both",
+   "cost_bp": 10,
+   "attempt_id": "dt162",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:23+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 2.316341,
+   "ann_vol": 0.505035,
+   "sharpe": 4.586493,
+   "total_return": 78.644963,
+   "max_drawdown": -0.164335,
+   "mean_daily_net": 0.00634614
+  }
+ },
+ {
+  "id": "dt163",
+  "verdict": "FAIL",
+  "sha": "f6e385b7e19e939c6002357cc28fdb3612f45e9a",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt163",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:25+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -14.287022,
+   "ann_vol": 0.608043,
+   "sharpe": -23.496744,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.03914253
+  }
+ },
+ {
+  "id": "dt164",
+  "verdict": "FAIL",
+  "sha": "032e3c5d37e9c53b4bce0a53a0a7ce2fea70efe9",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 4,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt164",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:25+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -8.527974,
+   "ann_vol": 0.6403,
+   "sharpe": -13.318726,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.02336431
+  }
+ },
+ {
+  "id": "dt165",
+  "verdict": "FAIL",
+  "sha": "c4e141d2ffef423dee84a955cd616a3128acf141",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt165",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:26+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -13.2074,
+   "ann_vol": 0.613997,
+   "sharpe": -21.510515,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.03618466
+  }
+ },
+ {
+  "id": "dt166",
+  "verdict": "FAIL",
+  "sha": "967353c5b0a13f356692837ad9d385546aa6faa7",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 8,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt166",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:27+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -7.988828,
+   "ann_vol": 0.651098,
+   "sharpe": -12.269781,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.0218872
+  }
+ },
+ {
+  "id": "dt167",
+  "verdict": "FAIL",
+  "sha": "d9f039dbd258060d644ae5b6e8be411bfd59abdb",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt167",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:28+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -13.679381,
+   "ann_vol": 0.56399,
+   "sharpe": -24.254634,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.03747776
+  }
+ },
+ {
+  "id": "dt168",
+  "verdict": "FAIL",
+  "sha": "fbbe234979a6eed21063d594cf524d4d5b8ff3a5",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "mom",
+   "m": 16,
+   "h": 8,
+   "cost_bp": 10,
+   "attempt_id": "dt168",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:29+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -7.215231,
+   "ann_vol": 0.672186,
+   "sharpe": -10.733983,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.01976776
+  }
+ },
+ {
+  "id": "dt169",
+  "verdict": "FAIL",
+  "sha": "8a91286d5bcd1ed6abfc61cafd2d0ce8f847b33e",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt169",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:30+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.564553,
+   "ann_vol": 0.318428,
+   "sharpe": -14.334649,
+   "total_return": -0.999909,
+   "max_drawdown": -0.999909,
+   "mean_daily_net": -0.01250563
+  }
+ },
+ {
+  "id": "dt170",
+  "verdict": "FAIL",
+  "sha": "3af5d2e2117a27f7b2bace6af4e3fd04c1aba70e",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 5,
+   "hi": 95,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt170",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:30+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -4.025006,
+   "ann_vol": 0.36099,
+   "sharpe": -11.149901,
+   "total_return": -0.999736,
+   "max_drawdown": -0.999736,
+   "mean_daily_net": -0.01102741
+  }
+ },
+ {
+  "id": "dt171",
+  "verdict": "FAIL",
+  "sha": "9911505e2b453987080b62e05d0e130a615e5756",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 2,
+   "cost_bp": 10,
+   "attempt_id": "dt171",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:31+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -8.450442,
+   "ann_vol": 0.400129,
+   "sharpe": -21.119283,
+   "total_return": -1.0,
+   "max_drawdown": -1.0,
+   "mean_daily_net": -0.0231519
+  }
+ },
+ {
+  "id": "dt172",
+  "verdict": "FAIL",
+  "sha": "634edb00bfc594115c8e406c375ed078f1191f1f",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "rsi2",
+   "lo": 10,
+   "hi": 90,
+   "h": 4,
+   "cost_bp": 10,
+   "attempt_id": "dt172",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:32+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": -6.732807,
+   "ann_vol": 0.474655,
+   "sharpe": -14.184636,
+   "total_return": -0.999999,
+   "max_drawdown": -0.999999,
+   "mean_daily_net": -0.01844605
+  }
+ },
+ {
+  "id": "dt173",
+  "verdict": "FAIL",
+  "sha": "858f0a0e47b30c63e54633532c806b1520bf3022",
+  "params": {
+   "symbol": "ETHUSDT",
+   "class": "nr7",
+   "cost_bp": 10,
+   "attempt_id": "dt173",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:33+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 0.106843,
+   "ann_vol": 0.199038,
+   "sharpe": 0.536795,
+   "total_return": 0.190793,
+   "max_drawdown": -0.319652,
+   "mean_daily_net": 0.00029272
+  }
+ },
+ {
+  "id": "dt174",
+  "verdict": "FAIL",
+  "sha": "894987e2f615562e8e72f9250f7009ac259522fb",
+  "params": {
+   "symbol": "SOLUSDT",
+   "class": "orb",
+   "k": 2,
+   "direction": "long",
+   "cost_bp": 0,
+   "attempt_id": "dt174",
+   "performer": "main-pipeline (Instinct agent)",
+   "batch_predecl": "lab/dt_spec.json",
+   "predeclared_at": "2026-09-19T12:01:35+03:00"
+  },
+  "stats": {
+   "n_days": 731,
+   "ann_arith_return": 1.800104,
+   "ann_vol": 0.722953,
+   "sharpe": 2.489932,
+   "total_return": 20.841255,
+   "max_drawdown": -0.398085,
+   "mean_daily_net": 0.00493179
+  }
+ }
+]

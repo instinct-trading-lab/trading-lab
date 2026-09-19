@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20587",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:50:07+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ADAUSDT"
+ },
+ "original_commit": "c71350af4d5bb57c0eab0d053d6484df5d544681 2026-09-19T12:50:08+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.026908,
+  "stats": {
+   "ann_arith_return": -1.162357,
+   "ann_vol": 0.798127,
+   "max_drawdown": -0.95698,
+   "mean_daily_net": -0.00318454,
+   "n_days": 731,
+   "sharpe": -1.456356,
+   "total_return": -0.948142
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

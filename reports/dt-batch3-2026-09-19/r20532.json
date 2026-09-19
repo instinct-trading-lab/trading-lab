@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20532",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "volspike",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:48:43+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "XRPUSDT"
+ },
+ "original_commit": "464b43e044acca0c2a4efc103e847d8f6a518e90 2026-09-19T12:48:44+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.143471,
+  "stats": {
+   "ann_arith_return": -0.511272,
+   "ann_vol": 0.673754,
+   "max_drawdown": -0.794107,
+   "mean_daily_net": -0.00140075,
+   "n_days": 731,
+   "sharpe": -0.758841,
+   "total_return": -0.772641
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20602",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "emax",
+  "cost_bp": 10,
+  "created_at": "2026-09-19T12:50:39+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "ADAUSDT"
+ },
+ "original_commit": "771c64b3afa37edb12229d524ce84154a9359508 2026-09-19T12:50:39+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 8e-06,
+  "stats": {
+   "ann_arith_return": -3.023405,
+   "ann_vol": 0.911825,
+   "max_drawdown": -0.999218,
+   "mean_daily_net": -0.0082833,
+   "n_days": 731,
+   "sharpe": -3.315775,
+   "total_return": -0.999004
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

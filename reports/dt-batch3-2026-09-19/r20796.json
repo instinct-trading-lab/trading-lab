@@ -1,0 +1,36 @@
+{
+ "identity": {
+  "attempt": "r20796",
+  "batch": "dt-batch3-2026-09-19",
+  "class": "sweep",
+  "cost_bp": 5,
+  "created_at": "2026-09-19T12:55:56+03:00",
+  "engine": "daily_net_v2 (ERRATA E1 corrected)",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "BTCUSD_CB"
+ },
+ "original_commit": "a79cb60915e32f4ed297f005d5dc4efa3a3163de 2026-09-19T12:55:57+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 0.0,
+  "stats": {
+   "ann_arith_return": -0.790067,
+   "ann_vol": 0.170234,
+   "max_drawdown": -0.80549,
+   "mean_daily_net": -0.00216457,
+   "n_days": 731,
+   "sharpe": -4.641062,
+   "total_return": -0.800752
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}

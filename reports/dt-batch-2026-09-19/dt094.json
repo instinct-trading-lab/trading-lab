@@ -1,0 +1,34 @@
+{
+ "identity": {
+  "attempt_id": "dt094",
+  "batch_predecl": "lab/dt_spec.json",
+  "class": "orb",
+  "cost_bp": 0,
+  "performer": "main-pipeline (Instinct agent)",
+  "predeclared_at": "2026-09-19T11:59:58+03:00",
+  "symbol": "ETHUSDT"
+ },
+ "original_commit": "096cf77d293b3ab8067244b9b706fede480cd1df 2026-09-19T12:00:00+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "dd_ok": false,
+   "mean_ok": true,
+   "sharpe_ok": true
+  },
+  "stats": {
+   "ann_arith_return": 1.419746,
+   "ann_vol": 0.514505,
+   "max_drawdown": -0.309898,
+   "mean_daily_net": 0.00388972,
+   "n_days": 731,
+   "sharpe": 2.759442,
+   "total_return": 12.104716
+  },
+  "verdict": "FAIL",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z",
+   "min_days": 180
+  }
+ }
+}

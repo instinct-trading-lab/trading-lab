@@ -1,0 +1,35 @@
+{
+ "identity": {
+  "attempt": "b20291",
+  "batch": "dt-batch2-2026-09-19",
+  "class": "sweep",
+  "cost_bp": 0,
+  "created_at": "2026-09-19T12:29:02+03:00",
+  "performer": "instinct trading-lab agent (main-pipeline)",
+  "symbol": "XRPUSDT"
+ },
+ "original_commit": "3aa95b580aeabd38b6567b645eec9c91fdb54340 2026-09-19T12:29:03+03:00",
+ "reproduction_match": true,
+ "results": {
+  "gates": {
+   "max_drawdown_worst": -0.25,
+   "mean_daily_net_min": 0.0,
+   "psr_min": 0.95,
+   "sharpe_min": 1.0
+  },
+  "psr": 1.0,
+  "stats": {
+   "ann_arith_return": 2.2182,
+   "ann_vol": 0.272618,
+   "max_drawdown": -0.078524,
+   "mean_daily_net": 0.00607726,
+   "n_days": 731,
+   "sharpe": 8.136658,
+   "total_return": 77.10119
+  },
+  "verdict": "PASS",
+  "window": {
+   "end_utc": "2025-12-31T23:59:59Z"
+  }
+ }
+}
