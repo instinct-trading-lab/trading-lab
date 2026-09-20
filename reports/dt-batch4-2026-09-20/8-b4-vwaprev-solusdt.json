@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b4-vwaprev-solusdt",
+  "batch": "dt-batch4-2026-09-20",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines",
+  "dataset_sha256": "a9868eda1828ae29f85d2ac660b47b34cdffeeacad11f75304ca5642420190e5",
+  "engine": "hourly_nextbar_v1",
+  "executed_at": "2026-09-20T12:51:49+03:00",
+  "family": "vwaprev",
+  "predeclaration": "predeclarations/BATCH4-2026-09-20-low-turnover-reversion.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -0.14255693649572246,
+    "max_drawdown": -0.5637743359690879,
+    "n_days": 731,
+    "position_changes_per_day": 0.13132694938440492,
+    "psr": 0.29788514166794156,
+    "sharpe": -0.37084807475138953,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}

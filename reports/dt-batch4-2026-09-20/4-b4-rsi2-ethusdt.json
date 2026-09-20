@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b4-rsi2-ethusdt",
+  "batch": "dt-batch4-2026-09-20",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines",
+  "dataset_sha256": "600a404d0d8b6e76d7793774f435334c605af6ac7e1f6867aab10768afb83b93",
+  "engine": "hourly_nextbar_v1",
+  "executed_at": "2026-09-20T12:51:49+03:00",
+  "family": "rsi2",
+  "predeclaration": "predeclarations/BATCH4-2026-09-20-low-turnover-reversion.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.05427987165403755,
+    "max_drawdown": -0.2106991737701469,
+    "n_days": 731,
+    "position_changes_per_day": 0.019151846785225718,
+    "psr": 0.7135085615403508,
+    "sharpe": 0.3854370713637794,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
