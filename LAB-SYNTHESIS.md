@@ -1,12 +1,13 @@
-# Lab synthesis: the map after 27 batches (2026-09-21)
+# Lab synthesis: the map after 31 batches (2026-09-21)
 
-Status document, not an experiment. Compiled from the per-batch reports in this repository. Gates throughout: annualized Sharpe >= 1.0, positive arithmetic annualized return, max drawdown no worse than -25%, PSR >= 0.95, >= 500 observed days (restated for validation as: every complete UTC day of the window present), <= 2 qualifying position events/day, byte-exact independent rerun. Exploration window 2024-2025 (crypto batches); validation window 2026+ opened exactly twice.
+Status document, not an experiment. Compiled from the per-batch reports in this repository. Gates throughout: annualized Sharpe >= 1.0, positive arithmetic annualized return, max drawdown no worse than -25%, PSR >= 0.95, >= 500 observed days (restated for validation as: every complete UTC day of the window present), <= 2 qualifying position events/day, byte-exact independent rerun. Exploration window 2024-2025 (crypto batches), 2018-2025 (non-crypto daily); validation window 2026+ opened exactly twice.
 
 ## Scoreboard
 
-- 116 predeclared exploration attempts (batches 1-16, 18-23, 27) plus 6 robustness attempts (batches 24-25, same package re-run on tradable prices).
-- 2 exploration passes: batch 16 `donchian55-maker10bp-vol35-pt50-btcusdt` (Sharpe 1.260, PSR 0.9697, MDD -17.95%) and the batch-24 funding-carry package (mark price, confirmed on trade price in batch 25).
-- 2 validation attempts on untouched 2026+ data: batch 17 killed the Donchian package (+0.94%, Sharpe 0.049, PSR 0.5165); batch 26 killed the funding-carry package (zero entries - 2026 funding never exceeded the 0.0001 baseline print, max trailing 7-day mean ~0.0001 vs the 0.0005 entry threshold).
+- 169 predeclared exploration attempts (batches 1-16, 18-23, 27-28, 29-30) plus 10 robustness attempts (batches 24-25 same-package re-runs; batch 31 robustness of the batch-30 pass).
+- 3 exploration passes: batch 16 `donchian55-maker10bp-vol35-pt50-btcusdt`, the batch-24 funding-carry package, batch 30 `dow2-btcusdt`.
+- 2 validation attempts on untouched 2026+ data: batch 17 killed the Donchian package (Sharpe 0.049); batch 26 killed funding carry (zero entries - the 2026 funding regime never printed above the 0.0001 baseline). Batch 30's pass never reached validation: batch 31 killed it at robustness (full-span Sharpe 0.826, PSR 0.9437 - a 2024-2025 window artifact).
+- 0 surviving packages. Nothing in this repository is a live-trading basis.
 
 ## Dead families (falsified, with the batch that closed them)
 
@@ -26,16 +27,19 @@ Status document, not an experiment. Compiled from the per-batch reports in this 
 | Long-short TSMOM (free shorts) | 21 | Short side adds nothing. |
 | Multi-timeframe confluence | 22 | Sharpe 1.105, MDD -20.83% pass; PSR 0.9449 misses by 0.0051. |
 | Funding-crowding regime filter | 23 | Gate removes good days; all metrics worse. |
-| Funding/basis carry (market-neutral) | 24-26 | Passed exploration (batch 24) and trade-price robustness (batch 25) on 2024-2025; batch-26 validation on 2026 data: the funding regime vanished (no print above 0.0001 baseline all year), zero entries, package killed. Structural returns exist but are regime-bound and low-yield. |
-| Hourly time-series momentum | 27 | 0/9. k=24h strongly negative after costs; k=72/168h positive but far below every gate (best Sharpe 0.446, PSR 0.7401). |
+| Funding/basis carry (market-neutral) | 24-26 | Passed exploration and trade-price robustness on 2024-2025; batch-26 validation on 2026: funding regime vanished (no print above 0.0001 baseline all year), zero entries, package killed. Structural returns exist but are regime-bound and low-yield. |
+| Hourly time-series momentum | 27 | 0/9. k=24h strongly negative after costs; k=72/168h positive but far below every gate. |
+| Non-crypto daily TSMOM | 28 | 0/16 on 8 FRED series (equity indexes, FX, WTI, broad dollar). Sharpe gate binds: best 0.771 (tsmom126-nasdaqcom). |
+| Hourly crypto reversion | 29 | 0/12. Turnover-catastrophic at 1-8h lookbacks; best 24h attempt Sharpe 0.612. Sign-flipping a loser does not mirror it (costs, long-flat constraint). |
+| Calendar day-of-week seasonality | 30-31 | 1/21 exploration pass (Wednesday BTC); batch-31 full-span robustness killed it (window artifact). |
 
 ## What the map says
 
-Every long-only or symmetric price-based structure on 2024-2025 BTC/ETH/SOL converges to the same place: Sharpe 0.9-1.1 on BTC (close to BTC beta itself), far less on ETH/SOL, with PSR bounded around 0.91-0.95. The gates demand a distribution, not a return stream, and no execution, sizing, exit-rule, lookback, confluence, regime-filter, or horizon variant produced one that replicated out of sample. Both in-sample PSR crossings (daily Donchian, funding carry) died on 2026 data - one to regime change in price behavior, one to regime change in funding. Crypto price-based momentum/reversion is now falsified at the 15m, hourly, 4h, daily, and weekly horizons on this universe.
+Price-based trading is falsified in BOTH directions (momentum and reversion) at the 15m, hourly, 4h, daily, and weekly horizons on BTC/ETH/SOL, and daily TSMOM is falsified on 8 major non-crypto series. Structural carry exists but is regime-bound and died at validation. Calendar seasonality produced exactly the multiple-comparison mirage it was expected to and died at robustness. Three exploration passes in 169 attempts, none surviving its first honest re-test: the gates demand a distribution, not a return stream, and the market does not owe anyone a simple one.
 
-## Open directions (not yet falsified)
+## Open directions (nearly exhausted)
 
-1. Non-crypto universes (equities, FX, rates, commodities) at daily horizon.
-2. Hourly-scale crypto reversion (the k=24h momentum loss in batch 27 implies it; turnover of ~2.3 position changes/day at 5bp makes profitability doubtful a priori, but the family itself is untested).
+1. Cross-asset lead-lag (BTC moves leading ETH/SOL at hourly horizon) - the last untested price-based structure on the map.
+2. Macro carry (FX rate differentials) - blocked on data: FRED foreign policy-rate series are annual; no daily source validated from this workspace.
 
-Nothing in this repository is a live-trading basis. Every claim above is backed by a per-batch report, checksums, and a public predeclaration that predates execution.
+If lead-lag also fails, the honest output of this lab is the map itself: 31 predeclared batches, every negative result published with checksums, and a documented methodology (predeclare - execute - twin-run - fresh-clone verify - robustness - validation) that killed every lucky pass before it could become a live mistake.
