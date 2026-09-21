@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b8-h4goldenvol-btcusdt",
+  "batch": "dt-batch8-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration (batch-6 dataset)",
+  "dataset_sha256": "ab853fea7b2ee8cd0521bd5614656c46a3644fec77a1d3cb54fd57b0cd8f1fd5",
+  "engine": "hourly_nextbar_v1 aggregated bars, fractional exposure, next-bar accounting",
+  "executed_at": "2026-09-21T11:24:16+03:00",
+  "family": "h4-golden-vol",
+  "predeclaration": "predeclarations/BATCH8-2026-09-21-vol-scaled-trend.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.2514472020902172,
+    "max_drawdown": -0.33001115483490884,
+    "n_days": 731,
+    "position_changes_per_day": 0.049247606019151846,
+    "psr": 0.8613478623107569,
+    "sharpe": 0.7616676139219452,
+    "verdict": "FAIL"
+  },
+  "symbol": "BTCUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
