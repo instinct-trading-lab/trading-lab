@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b7-dailysma50ts-solusdt",
+  "batch": "dt-batch7-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration (batch-6 dataset)",
+  "dataset_sha256": "3eddec8881cb1e01b950b2507127c91b3c4c2199a994b58662258bd1f165018d",
+  "engine": "hourly_nextbar_v1 aggregated bars, next-bar accounting",
+  "executed_at": "2026-09-21T11:19:46+03:00",
+  "family": "daily-sma50-ts",
+  "predeclaration": "predeclarations/BATCH7-2026-09-21-trend-trailing-stop.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.48690444466288657,
+    "max_drawdown": -0.3842389533052236,
+    "n_days": 731,
+    "position_changes_per_day": 0.05198358413132695,
+    "psr": 0.9101395121334694,
+    "sharpe": 0.9350480826055451,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
