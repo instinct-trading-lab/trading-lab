@@ -1,0 +1,36 @@
+{
+  "attempt_id": "b28-tsmom126-dtwexbgs",
+  "batch": "dt-batch28-2026-09-21",
+  "data_source": "FRED (Federal Reserve Bank of St. Louis) public daily CSV (fredgraph.csv)",
+  "dataset_sha256": {
+    "FRED-DCOILWTICO-daily.csv": "6d250826de55a2c185af8d2b8e60b1f1f5c70b689c30f7400ca8a240bf6db77b",
+    "FRED-DEXJPUS-daily.csv": "0ea1de1993e69827ccfdddc390af8f8f5abf15c566f4c4cd5a6072495b773965",
+    "FRED-DEXUSEU-daily.csv": "b14d1eb1506873ba584700efdffda856e0b8c29022daf5b580d85007ac3f50e5",
+    "FRED-DEXUSUK-daily.csv": "8019269b14847f7e35ee011b4734f5a8ef6925ffc6d33d8454236c8eab8df74c",
+    "FRED-DJIA-daily.csv": "614e1630b9fbceb7fce7fb42db75104e3e7b3b9de2b281f1aff5bc411c18a381",
+    "FRED-DTWEXBGS-daily.csv": "2cafc992a0ceb45f72d0ed1a187c35cc43cb7ebb1dae52b6f427948ae1059b49",
+    "FRED-NASDAQCOM-daily.csv": "d4d439ee56134056810810314bdcf2f09c2bd51177b06998edf1b34007e4f7c9",
+    "FRED-SP500-daily.csv": "b2f8bfc713b59c9e6992ff520478035e30a352b059c782d0bc04cd420e9ab599"
+  },
+  "engine": "daily_tsmom_v1_noncrypto",
+  "executed_at": "2026-09-21T15:40:00+03:00",
+  "family": "noncrypto-daily-timeseries-momentum",
+  "fee_per_position_change_bp": 10,
+  "lookback_days": 126,
+  "predeclaration": "predeclarations/BATCH28-2026-09-21-noncrypto-daily-tsmom.md",
+  "reproduction_match": true,
+  "sanity_check_buyhold_window_return": 0.092126,
+  "series": "DTWEXBGS",
+  "stats": {
+    "ann_arith_return": -0.0017137801259833553,
+    "lookback_days": 126,
+    "max_drawdown": -0.1019763598778467,
+    "n_days": 1995,
+    "position_events": 82,
+    "position_events_per_day": 0.04110275689223058,
+    "psr": 0.4533814802155826,
+    "sharpe": -0.04163842366483822,
+    "verdict": "FAIL"
+  },
+  "window": "2018-01-01/2025-12-31"
+}
