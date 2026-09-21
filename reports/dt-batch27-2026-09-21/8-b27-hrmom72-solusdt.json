@@ -1,0 +1,30 @@
+{
+  "attempt_id": "b27-hrmom72-solusdt",
+  "batch": "dt-batch27-2026-09-21",
+  "data_source": "Binance.US spot hourly (public archive), exploration window 2024-01-01/2025-12-31 UTC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "hourly_tsmom_v1",
+  "executed_at": "2026-09-21T15:23:00+03:00",
+  "family": "hourly-timeseries-momentum",
+  "fee_per_position_change_bp": 5,
+  "lookback_hours": 72,
+  "predeclaration": "predeclarations/BATCH27-2026-09-21-hourly-tsmom.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.008217586883976658,
+    "lookback_hours": 72,
+    "max_drawdown": -0.7063130112527156,
+    "n_days": 731,
+    "position_events": 872,
+    "position_events_per_day": 1.1928864569083448,
+    "psr": 0.5076861462076637,
+    "sharpe": 0.013618899300098904,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
