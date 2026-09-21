@@ -1,0 +1,31 @@
+{
+  "attempt_id": "b30-dow4-btcusdt",
+  "batch": "dt-batch30-2026-09-21",
+  "data_source": "Binance.US spot hourly aggregated to UTC daily closes (public archive), exploration window 2024-01-01/2025-12-31 UTC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "dow_seasonality_v1",
+  "executed_at": "2026-09-21T16:02:00+03:00",
+  "family": "calendar-day-of-week-seasonality",
+  "fee_per_position_change_bp": 5,
+  "predeclaration": "predeclarations/BATCH30-2026-09-21-dow-seasonality.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -0.043046307501895115,
+    "max_drawdown": -0.27593797459188507,
+    "n_days": 731,
+    "position_events": 208,
+    "position_events_per_day": 0.28454172366621067,
+    "psr": 0.3723852049096676,
+    "sharpe": -0.2295678248572536,
+    "verdict": "FAIL",
+    "weekday": 4
+  },
+  "symbol": "BTCUSDT",
+  "weekday": 4,
+  "weekday_name": "fri",
+  "window": "2024-01-01/2025-12-31"
+}
