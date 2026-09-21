@@ -1,0 +1,53 @@
+{
+  "attempt_id": "b26-fundcarry-btcusdt",
+  "batch": "dt-batch26-2026-09-21",
+  "data_source": "Binance.US spot hourly + Binance.com USD-M perp TRADE-price hourly and funding history (public archives)",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2025-08-01-2026-09-20.json": "9b790c5ff230a4886a86874228411374b141c1f63de1ce43fa7bc6a114194494",
+    "ETHUSDT-1h-2025-12-01-2026-08-31.json": "6e6d8edeeb6093a35345d2f4b0bd5f023547ff06dc49b205746092008f41f328",
+    "SOLUSDT-1h-2025-12-01-2026-08-31.json": "c1809196701352c1d91263a37055d90a4a2c3be118e9fbbd749ba76236dc064c"
+  },
+  "engine": "funding_carry_v1_tradeprice (batch-25 construction, unchanged)",
+  "executed_at": "2026-09-21T15:20:00+03:00",
+  "family": "funding-carry",
+  "fee_per_leg_bp": 5,
+  "funding_entry_threshold_per_8h": 0.0005,
+  "funding_exit_threshold_per_8h": 0.0001,
+  "funding_lookback_days": 7,
+  "funding_sha256": {
+    "BTCUSDT-funding-2023-09-01-2025-12-31.json": "3a05f6573621e75e763e08712a69d4654b13f19a864f52d3ebadcc5dae912827",
+    "BTCUSDT-funding-2026-01-01-2026-08-31.json": "d5fc62b850bb62ea033accf8efa62af11c5f5be83e0a03ec7b631cbd886a1e10",
+    "ETHUSDT-funding-2023-09-01-2025-12-31.json": "aeb296b32cbe9b2d65b35c7f2853476f661cdc7abc8a1aaf6055dacd6d367a3c",
+    "ETHUSDT-funding-2026-01-01-2026-08-31.json": "46318fef2951bacbc54398f08afcebb477af3009312c4534a69865b42920a6e9",
+    "SOLUSDT-funding-2023-09-01-2025-12-31.json": "d43e6dae30c0cccc056a6f3cd0150a461150193b9ac9fb8bfd3c14c917a47879",
+    "SOLUSDT-funding-2026-01-01-2026-08-31.json": "dfa096d3c9e7eb35844ec63aed8b42fa0608881e409556dc23bca3741a56e14c"
+  },
+  "perp_sha256": {
+    "BTCUSDT-perptrade-1h-2023-12-01-2025-12-31.json": "459f92628228139e70eb9bc28f09ffd861e40eda80f5201feba4348570d7d80d",
+    "BTCUSDT-perptrade-1h-2026-01-01-2026-08-31.json": "52157b80d165a78b4765cc9caf1fbec3a1808d034ddec6ab016c6dedd6b9044b",
+    "ETHUSDT-perptrade-1h-2023-12-01-2025-12-31.json": "1c3f2d97f9a4394858bba7183bf10ca61804ab8463df272d28b8080161a574c8",
+    "ETHUSDT-perptrade-1h-2026-01-01-2026-08-31.json": "b28c84181742690c316f396458b1bc370f4b3f1014f18ab8e6bb5f4a8498ad2d",
+    "SOLUSDT-perptrade-1h-2023-12-01-2025-12-31.json": "b8709aad431c3d83d4ca75856f01ef9257c9f66af5c7f7fddde0198a99d24247",
+    "SOLUSDT-perptrade-1h-2026-01-01-2026-08-31.json": "0d9c6f98e2fc6b19be3c777fe947c50f1c8df20a9f676c09049ede5073058251"
+  },
+  "predeclaration": "predeclarations/BATCH26-2026-09-21-validation-funding-carry.md + predeclarations/BATCH26-ADDENDUM-2026-09-21-window-cap.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.0,
+    "complete_window": true,
+    "entries": 0,
+    "exits": 0,
+    "funding_collected_total": 0.0,
+    "max_drawdown": 0.0,
+    "missing_funding_days": [],
+    "missing_window_days": [],
+    "n_days": 242,
+    "position_events_per_day": 0.0,
+    "psr": null,
+    "sharpe": null,
+    "stats_note": "sharpe/psr undefined: zero trades, zero return variance",
+    "verdict": "FAIL"
+  },
+  "symbol": "BTCUSDT",
+  "window": "2026-01-01/2026-08-30"
+}
