@@ -1,0 +1,31 @@
+{
+  "attempt_id": "b21-lstmom182d-vol35-solusdt",
+  "batch": "dt-batch21-2026-09-21",
+  "data_source": "Binance.US hourly aggregated to complete UTC daily OHLC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "tsmom_longshort_voltarget_v1",
+  "executed_at": "2026-09-21T14:42:00+03:00",
+  "family": "long-short-tsmom",
+  "fee_bp": 5,
+  "lookback_days": 182,
+  "predeclaration": "predeclarations/BATCH21-2026-09-21-long-short-tsmom.md",
+  "reproduction_match": true,
+  "short_costs_modeled": false,
+  "stats": {
+    "ann_arith_return": -0.202274659299727,
+    "max_drawdown": -0.6326482620883168,
+    "n_days": 730,
+    "position_events_per_day": 0.021917808219178082,
+    "psr": 0.22907212831059331,
+    "sharpe": -0.5244980169361004,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "vol_lookback_days": 20,
+  "vol_target": 0.35,
+  "window": "2024-01-01/2025-12-31"
+}
