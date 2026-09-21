@@ -1,0 +1,6 @@
+555934ad1aee93da6d6aece939f49e0acc87e5023dd43d64466d9a2b2c799ad2  3-b14-donchian55-maker10bp-vol35-btcusdt.json
+1ca46ddf6be732da7992bae996b36c3dc2b7f64d1e8ba0b0d2ff73ae5f38a7c5  4-b14-donchian55-maker10bp-vol35-ethusdt.json
+47ff84164e6558016505031fc34fcc5108de25eca50d058b70febedd8eff3bb6  5-b14-donchian55-maker10bp-vol35-solusdt.json
+1c3d6ae8699222be8f583f50d3461881991f4ef6880bb633afd5166142268eed  6-b14-donchian55-maker10bp-vol50-btcusdt.json
+daae8d41cdff81450999b9c3c8c72c8045638fad65834f3e772a0cba3ffc4bf1  7-b14-donchian55-maker10bp-vol50-ethusdt.json
+9b2a9a81b832b99a65b2ffc2355f045c9f0b91c9da7781a5f82fe8738042605b  8-b14-donchian55-maker10bp-vol50-solusdt.json
