@@ -1,0 +1,5 @@
+4ba3628854050ddc047191e37180a57b35c8f58eebff1c868a749dcf89389f4c  1-RESULTS.md
+4e695c6d646ca38a29706e3b7861f4ce8623bb4af84dcb64f82b582e7c981825  3-b31-A-dow2-btcusdt-fullspan-5bp.json
+190a8bc0df4f2710d5572958e8699814ebb7777969c1e7bdc42c2b5a6ec70e96  4-b31-B-dow2-btcusdt-fullspan-10bp.json
+a2a38ae3a80c8d295acf9b95757bb556a2ae96f3eae5ccefa68b8557d1592fb5  5-b31-C-dow2-ethusdt-fullspan-5bp.json
+cd68aa8628dcf616457fd5d6e2291fca150345ddf68297157a2507690ece0fc4  6-b31-D-dow2-solusdt-fullspan-5bp.json
