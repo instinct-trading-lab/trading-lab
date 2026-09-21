@@ -1,0 +1,31 @@
+{
+  "attempt_id": "b22-mtf-sma50-tsmom364-vol35-ethusdt",
+  "batch": "dt-batch22-2026-09-21",
+  "data_source": "Binance.US hourly aggregated to complete UTC daily OHLC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "mtf_confluence_voltarget_v1",
+  "executed_at": "2026-09-21T14:45:00+03:00",
+  "family": "multi-timeframe-confluence",
+  "fast_rule": "close>sma50",
+  "fee_bp": 5,
+  "predeclaration": "predeclarations/BATCH22-2026-09-21-multitimeframe-confluence.md",
+  "reproduction_match": true,
+  "slow_rule": "close>close_364d_ago",
+  "stats": {
+    "ann_arith_return": 0.15138546536960357,
+    "max_drawdown": -0.2771231031500634,
+    "n_days": 730,
+    "position_events_per_day": 0.04246575342465753,
+    "psr": 0.8183844395889658,
+    "sharpe": 0.6366323890556757,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "vol_lookback_days": 20,
+  "vol_target": 0.35,
+  "window": "2024-01-01/2025-12-31"
+}
