@@ -1,0 +1,4 @@
+463061b3cc7ec7075f3d4d0fc440ba587ebdbaa3abcbeb4d535227e4336a2929  1-RESULTS.md
+3736b778f8e4497531ab9d8914a7f6abe9067f84c9a606b7aa59cedec0f40181  3-b26-fundcarry-btcusdt.json
+95f8828d8ac7b80000958b46afbe12e4e3795af18c5802c503c9f8275a0c7abf  4-b26-fundcarry-ethusdt.json
+bab5e4b346090415d71fb8efdb957dcdfad04f86806a7af33759eb82ac6b7a11  5-b26-fundcarry-solusdt.json
