@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b5-vwaprevg-solusdt",
+  "batch": "dt-batch5-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines",
+  "dataset_sha256": "cde77556ceb8084b32ad0eaabfb0381e4406a27eab3ce8b0b94f891f8b9366c7",
+  "engine": "hourly_nextbar_v1",
+  "executed_at": "2026-09-21T11:09:35+03:00",
+  "family": "vwaprev-gated",
+  "predeclaration": "predeclarations/BATCH5-2026-09-21-regime-gated-reversion.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -0.38641598161544605,
+    "max_drawdown": -0.6944274987460461,
+    "n_days": 731,
+    "position_changes_per_day": 0.5909712722298222,
+    "psr": 0.06922477894765444,
+    "sharpe": -1.048891530856354,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
