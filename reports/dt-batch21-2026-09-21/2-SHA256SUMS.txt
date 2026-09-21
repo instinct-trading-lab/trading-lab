@@ -1,0 +1,6 @@
+6f11d17d792b3f9dc90820e10110dcacd93d65bcb5a287b1dcac55a6d41026b8  3-b21-lstmom182d-vol35-btcusdt.json
+03d92afcf5c39d5d4c2c9da9f06dc7b161bab773420cd2d4cee8b3be4e438ecb  4-b21-lstmom182d-vol35-ethusdt.json
+3619e6827c8b8765cd8eb8cacca2e951b0da8ea4a2aeb29f3490766ad3453131  5-b21-lstmom182d-vol35-solusdt.json
+27d792aa2348fe0ed252f53320fdd8b2cab0671fd95274f5d9ee3634205bbdc2  6-b21-lstmom364d-vol35-btcusdt.json
+2c4d5984a8d204fcd02a1e9f75ea56476adcfb9878a83bc16d06535cabd1044e  7-b21-lstmom364d-vol35-ethusdt.json
+d02f547c60987b73d9abef95e41e6518d33da203174d709d1efc12da7935be04  8-b21-lstmom364d-vol35-solusdt.json
