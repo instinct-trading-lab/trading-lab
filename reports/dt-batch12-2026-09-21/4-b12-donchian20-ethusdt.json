@@ -1,0 +1,28 @@
+{
+  "attempt_id": "b12-donchian20-ethusdt",
+  "batch": "dt-batch12-2026-09-21",
+  "cost_bp_per_position_change": 5,
+  "data_source": "Binance.US hourly aggregated to complete UTC daily OHLC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2023-11-01-2025-12-31.json": "5cb4b8c1dc632026b0634b264d3cc2698f0005637195ba561d5257370b7dfac6",
+    "ETHUSDT-1h-2023-11-01-2025-12-31.json": "46245552ab7173592c77e946722035473a9b73786e3b7d5a507adddcc1c18cd8",
+    "SOLUSDT-1h-2023-11-01-2025-12-31.json": "d044ab3e9e9a055108eb4183f7dd568e5d930159c833040ba0dc25256a059248"
+  },
+  "engine": "daily_donchian_nextbar_v1",
+  "executed_at": "2026-09-21T13:47:40+03:00",
+  "family": "daily-donchian-breakout",
+  "lookback_days": 20,
+  "predeclaration": "predeclarations/BATCH12-2026-09-21-daily-donchian-breakout.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -0.02172407677317459,
+    "max_drawdown": -0.4715284784566549,
+    "n_days": 730,
+    "position_changes_per_day": 0.03424657534246575,
+    "psr": 0.46916550301222476,
+    "sharpe": -0.054791716432670466,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
