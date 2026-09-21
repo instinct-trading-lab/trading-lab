@@ -1,0 +1,6 @@
+170b1789f917d411088d4efa4dde52acecffe60fb847bc1a07785b78544e2b93  3-b12-donchian20-btcusdt.json
+6662abc15d7252aab70410bac9ce6172f5512df7de904feaa46b3e17d0ed9c8a  4-b12-donchian20-ethusdt.json
+997cf01da552b0d34b2c1b6f0bcf47531b543e289e89fdad9d55aaf9b21bc581  5-b12-donchian20-solusdt.json
+77910be06a01eb87e3ba4768a2ebe5c8d93d162bb3379872ea9a558b39b9c696  6-b12-donchian55-btcusdt.json
+1be3497da129dbef642c7013a980107d25438b9c91cd86bb1122a81137e63eae  7-b12-donchian55-ethusdt.json
+96ac360176a40ef0a5d29b99030f18ed89cc44dfef99bd98595dcd0a4c507658  8-b12-donchian55-solusdt.json
