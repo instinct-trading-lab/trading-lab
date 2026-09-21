@@ -1,0 +1,6 @@
+5bfd03c8a9ecf03703c5aee05eae376f584103834e1f99c9fb95df7f8b8d032e  3-b10-dailysma50-maker10bp-btcusdt.json
+a52e71da73473e136e06a8c08bdbb533dae5d95bc91c505897c96ed21811305c  4-b10-dailysma50-maker10bp-ethusdt.json
+fca02c39bbc07926c123758e17ba5aa5d4210ee66b792d6ba662f711f8ac3de1  5-b10-dailysma50-maker10bp-solusdt.json
+acc1fa7dcf4679f5ac6dbd2b1975ef7b4e48854d4aae0ba3c2ffa85ea88f9d86  6-b10-dailysma50-maker5bp-btcusdt.json
+e7d077abdb9bf00d2b6e196fc7732b3b3faafdb136736fc7e61e40f9d4429e78  7-b10-dailysma50-maker5bp-ethusdt.json
+f5f94c769b67cb934d04fd9ac37bddf424f7ed6d7e705ba92692f7226f4db1a5  8-b10-dailysma50-maker5bp-solusdt.json
