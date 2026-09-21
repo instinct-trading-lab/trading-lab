@@ -1,0 +1,33 @@
+{
+  "attempt_id": "b11-rs14-top2",
+  "batch": "dt-batch11-2026-09-21",
+  "cost_bp_per_unit_weight_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated to complete UTC daily closes",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2023-11-01-2025-12-31.json": "5cb4b8c1dc632026b0634b264d3cc2698f0005637195ba561d5257370b7dfac6",
+    "ETHUSDT-1h-2023-11-01-2025-12-31.json": "46245552ab7173592c77e946722035473a9b73786e3b7d5a507adddcc1c18cd8",
+    "SOLUSDT-1h-2023-11-01-2025-12-31.json": "d044ab3e9e9a055108eb4183f7dd568e5d930159c833040ba0dc25256a059248"
+  },
+  "engine": "daily_relative_strength_positive_gate_v1",
+  "executed_at": "2026-09-21T13:21:20+03:00",
+  "family": "absolute-momentum-gated-relative-strength",
+  "lookback_calendar_days": 14,
+  "predeclaration": "predeclarations/BATCH11-2026-09-21-absolute-momentum-rotation.md",
+  "reproduction_match": true,
+  "selected_assets": 2,
+  "stats": {
+    "ann_arith_return": 0.3080552785477861,
+    "max_drawdown": -0.3168192257154797,
+    "n_days": 730,
+    "portfolio_rebalances_per_day": 0.27671232876712326,
+    "psr": 0.8322444577784243,
+    "sharpe": 0.6776175205860182,
+    "verdict": "FAIL"
+  },
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT"
+  ],
+  "window": "2024-01-01/2025-12-31"
+}
