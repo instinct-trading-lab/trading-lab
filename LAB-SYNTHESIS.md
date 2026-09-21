@@ -1,10 +1,10 @@
-# Lab synthesis: the map after 31 batches (2026-09-21)
+# Lab synthesis: FINAL - the map after 32 batches (2026-09-21)
 
 Status document, not an experiment. Compiled from the per-batch reports in this repository. Gates throughout: annualized Sharpe >= 1.0, positive arithmetic annualized return, max drawdown no worse than -25%, PSR >= 0.95, >= 500 observed days (restated for validation as: every complete UTC day of the window present), <= 2 qualifying position events/day, byte-exact independent rerun. Exploration window 2024-2025 (crypto batches), 2018-2025 (non-crypto daily); validation window 2026+ opened exactly twice.
 
 ## Scoreboard
 
-- 169 predeclared exploration attempts (batches 1-16, 18-23, 27-28, 29-30) plus 10 robustness attempts (batches 24-25 same-package re-runs; batch 31 robustness of the batch-30 pass).
+- 181 predeclared exploration attempts (batches 1-16, 18-23, 27-30, 32) plus 10 robustness attempts (batches 24-25 same-package re-runs; batch 31 robustness of the batch-30 pass).
 - 3 exploration passes: batch 16 `donchian55-maker10bp-vol35-pt50-btcusdt`, the batch-24 funding-carry package, batch 30 `dow2-btcusdt`.
 - 2 validation attempts on untouched 2026+ data: batch 17 killed the Donchian package (Sharpe 0.049); batch 26 killed funding carry (zero entries - the 2026 funding regime never printed above the 0.0001 baseline). Batch 30's pass never reached validation: batch 31 killed it at robustness (full-span Sharpe 0.826, PSR 0.9437 - a 2024-2025 window artifact).
 - 0 surviving packages. Nothing in this repository is a live-trading basis.
@@ -32,14 +32,12 @@ Status document, not an experiment. Compiled from the per-batch reports in this 
 | Non-crypto daily TSMOM | 28 | 0/16 on 8 FRED series (equity indexes, FX, WTI, broad dollar). Sharpe gate binds: best 0.771 (tsmom126-nasdaqcom). |
 | Hourly crypto reversion | 29 | 0/12. Turnover-catastrophic at 1-8h lookbacks; best 24h attempt Sharpe 0.612. Sign-flipping a loser does not mirror it (costs, long-flat constraint). |
 | Calendar day-of-week seasonality | 30-31 | 1/21 exploration pass (Wednesday BTC); batch-31 full-span robustness killed it (window artifact). |
+| Cross-asset lead-lag (hourly) | 32 | 0/12. Turnover-catastrophic (5.8-12.7 changes/day at 5bp); Sharpe -0.86 to -6.08. The last price-based structure on the map. |
 
 ## What the map says
 
 Price-based trading is falsified in BOTH directions (momentum and reversion) at the 15m, hourly, 4h, daily, and weekly horizons on BTC/ETH/SOL, and daily TSMOM is falsified on 8 major non-crypto series. Structural carry exists but is regime-bound and died at validation. Calendar seasonality produced exactly the multiple-comparison mirage it was expected to and died at robustness. Three exploration passes in 169 attempts, none surviving its first honest re-test: the gates demand a distribution, not a return stream, and the market does not owe anyone a simple one.
 
-## Open directions (nearly exhausted)
+## Status: EXPLORATION COMPLETE
 
-1. Cross-asset lead-lag (BTC moves leading ETH/SOL at hourly horizon) - the last untested price-based structure on the map.
-2. Macro carry (FX rate differentials) - blocked on data: FRED foreign policy-rate series are annual; no daily source validated from this workspace.
-
-If lead-lag also fails, the honest output of this lab is the map itself: 31 predeclared batches, every negative result published with checksums, and a documented methodology (predeclare - execute - twin-run - fresh-clone verify - robustness - validation) that killed every lucky pass before it could become a live mistake.
+The map is exhausted. See reports/FINAL-CONCLUSION.md for the closing statement: 181 exploration + 10 robustness attempts, 3 passes all killed by their own predeclared re-tests, 0 surviving packages, nothing live-tradable. The lab reopens only on a genuinely new data class (options/vol surface, order book, on-chain), a new structural family with an explicit economic mechanism, or a specific owner request - all under the same protocol.
