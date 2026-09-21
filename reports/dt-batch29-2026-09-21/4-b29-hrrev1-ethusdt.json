@@ -1,0 +1,30 @@
+{
+  "attempt_id": "b29-hrrev1-ethusdt",
+  "batch": "dt-batch29-2026-09-21",
+  "data_source": "Binance.US spot hourly (public archive), exploration window 2024-01-01/2025-12-31 UTC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "hourly_reversion_v1",
+  "executed_at": "2026-09-21T15:45:00+03:00",
+  "family": "hourly-crypto-reversion",
+  "fee_per_position_change_bp": 5,
+  "lookback_hours": 1,
+  "predeclaration": "predeclarations/BATCH29-2026-09-21-hourly-reversion.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -1.9261727937380064,
+    "lookback_hours": 1,
+    "max_drawdown": -0.9831606985228176,
+    "n_days": 731,
+    "position_events": 9216,
+    "position_events_per_day": 12.607387140902873,
+    "psr": 6.974095653055135e-10,
+    "sharpe": -4.185794274083335,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
