@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b5-vwaprevg-ethusdt",
+  "batch": "dt-batch5-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines",
+  "dataset_sha256": "f4c7c1742263081ea0ca915f76bb656610e5f442d71488e67440b971516eaa87",
+  "engine": "hourly_nextbar_v1",
+  "executed_at": "2026-09-21T11:09:20+03:00",
+  "family": "vwaprev-gated",
+  "predeclaration": "predeclarations/BATCH5-2026-09-21-regime-gated-reversion.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -0.24076112807396716,
+    "max_drawdown": -0.47672653364256723,
+    "n_days": 731,
+    "position_changes_per_day": 0.35841313269493846,
+    "psr": 0.12823347817867292,
+    "sharpe": -0.7874639978951902,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
