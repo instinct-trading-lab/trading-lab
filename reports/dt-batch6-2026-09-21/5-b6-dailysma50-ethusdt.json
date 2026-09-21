@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b6-dailysma50-ethusdt",
+  "batch": "dt-batch6-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration",
+  "dataset_sha256": "1fee2bc1619001613ea48d7b8443fbf431d6de77bf8a5a6195cceb7390a5a590",
+  "engine": "hourly_nextbar_v1 aggregated bars, next-bar accounting",
+  "executed_at": "2026-09-21T11:16:00+03:00",
+  "family": "daily-sma50",
+  "predeclaration": "predeclarations/BATCH6-2026-09-21-higher-timeframe-trend.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.5415459568503093,
+    "max_drawdown": -0.36687771986267737,
+    "n_days": 731,
+    "position_changes_per_day": 0.047879616963064295,
+    "psr": 0.959432667299108,
+    "sharpe": 1.1779066659738209,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
