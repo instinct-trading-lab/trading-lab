@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b6-dailysma50-solusdt",
+  "batch": "dt-batch6-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration",
+  "dataset_sha256": "3eddec8881cb1e01b950b2507127c91b3c4c2199a994b58662258bd1f165018d",
+  "engine": "hourly_nextbar_v1 aggregated bars, next-bar accounting",
+  "executed_at": "2026-09-21T11:16:17+03:00",
+  "family": "daily-sma50",
+  "predeclaration": "predeclarations/BATCH6-2026-09-21-higher-timeframe-trend.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.24731065868061675,
+    "max_drawdown": -0.5133657590036627,
+    "n_days": 731,
+    "position_changes_per_day": 0.0533515731874145,
+    "psr": 0.7271805241289955,
+    "sharpe": 0.42516727055676634,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
