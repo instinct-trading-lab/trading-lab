@@ -1,0 +1,34 @@
+{
+  "attempt_id": "b19-tsmom182d-vol35-btcusdt",
+  "batch": "dt-batch19-2026-09-21",
+  "data_source": "Binance.US hourly aggregated to complete UTC daily OHLC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "tsmom_voltarget_v1",
+  "entry_fee_bp": 5,
+  "executed_at": "2026-09-21T14:38:00+03:00",
+  "exit_fee_bp": 5,
+  "family": "slow-tsmom",
+  "lookback_days": 182,
+  "predeclaration": "predeclarations/BATCH19-2026-09-21-slow-tsmom.md",
+  "reproduction_match": true,
+  "resize_fee_bp": 5,
+  "stats": {
+    "ann_arith_return": 0.3223696688356854,
+    "entries": 5,
+    "exits": 5,
+    "max_drawdown": -0.2452727681013509,
+    "n_days": 730,
+    "position_events_per_day": 0.01780821917808219,
+    "psr": 0.9088170604811112,
+    "sharpe": 0.9339401795869382,
+    "verdict": "FAIL"
+  },
+  "symbol": "BTCUSDT",
+  "vol_lookback_days": 20,
+  "vol_target": 0.35,
+  "window": "2024-01-01/2025-12-31"
+}
