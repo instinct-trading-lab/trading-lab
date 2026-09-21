@@ -1,0 +1,43 @@
+{
+  "attempt_id": "b24-fundcarry-ethusdt",
+  "batch": "dt-batch24-2026-09-21",
+  "data_source": "Binance.US spot hourly + Binance.com USD-M perp mark-price hourly and funding history (public archives)",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "funding_carry_v1",
+  "executed_at": "2026-09-21T15:12:00+03:00",
+  "family": "funding-carry",
+  "fee_per_leg_bp": 5,
+  "funding_entry_threshold_per_8h": 0.0005,
+  "funding_exit_threshold_per_8h": 0.0001,
+  "funding_lookback_days": 7,
+  "funding_sha256": {
+    "BTCUSDT-funding-2023-09-01-2025-12-31.json": "3a05f6573621e75e763e08712a69d4654b13f19a864f52d3ebadcc5dae912827",
+    "ETHUSDT-funding-2023-09-01-2025-12-31.json": "aeb296b32cbe9b2d65b35c7f2853476f661cdc7abc8a1aaf6055dacd6d367a3c",
+    "SOLUSDT-funding-2023-09-01-2025-12-31.json": "d43e6dae30c0cccc056a6f3cd0150a461150193b9ac9fb8bfd3c14c917a47879"
+  },
+  "perp_sha256": {
+    "BTCUSDT-perpmark-1h-2023-12-01-2025-12-31.json": "c4877cd2b4d316bfd9aa47a2d312d6e2242c6efff5b04667eb5af89b754f9a87",
+    "ETHUSDT-perpmark-1h-2023-12-01-2025-12-31.json": "0ff22e4f20acf87a2056531c36dfb5dd06004ddb6cae76a6b9d5d3937868c798",
+    "SOLUSDT-perpmark-1h-2023-12-01-2025-12-31.json": "2c534d87f6f025adf919adc1a2e54e1d0f786217cadb3b75510927247939ac7c"
+  },
+  "predeclaration": "predeclarations/BATCH24-2026-09-21-funding-carry.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.01440009556812389,
+    "entries": 1,
+    "exits": 1,
+    "funding_collected_total": 0.030998279999999996,
+    "max_drawdown": -0.002763333836553805,
+    "n_days": 731,
+    "position_events_per_day": 0.0027359781121751026,
+    "psr": 0.999656599573794,
+    "sharpe": 2.078625055935792,
+    "verdict": "PASS"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
