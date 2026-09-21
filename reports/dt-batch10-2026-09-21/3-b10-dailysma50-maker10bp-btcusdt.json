@@ -1,0 +1,31 @@
+{
+  "attempt_id": "b10-dailysma50-maker10bp-btcusdt",
+  "batch": "dt-batch10-2026-09-21",
+  "data_source": "Binance.US public hourly klines aggregated to complete UTC daily OHLC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2023-11-01-2025-12-31.json": "5cb4b8c1dc632026b0634b264d3cc2698f0005637195ba561d5257370b7dfac6",
+    "ETHUSDT-1h-2023-11-01-2025-12-31.json": "46245552ab7173592c77e946722035473a9b73786e3b7d5a507adddcc1c18cd8",
+    "SOLUSDT-1h-2023-11-01-2025-12-31.json": "d044ab3e9e9a055108eb4183f7dd568e5d930159c833040ba0dc25256a059248"
+  },
+  "engine": "daily_sma50_maker_entry_v1",
+  "entry_fee_bp": 0,
+  "entry_offset_bp": 10,
+  "executed_at": "2026-09-21T12:51:50+03:00",
+  "exit_fee_bp": 5,
+  "family": "daily-sma50-maker-entry",
+  "predeclaration": "predeclarations/BATCH10-2026-09-21-maker-entry-model.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.39896580285921646,
+    "entries": 25,
+    "exits": 25,
+    "max_drawdown": -0.2533729105440433,
+    "n_days": 731,
+    "position_events_per_day": 0.06839945280437756,
+    "psr": 0.951413670516218,
+    "sharpe": 1.1524043119573524,
+    "verdict": "FAIL"
+  },
+  "symbol": "BTCUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
