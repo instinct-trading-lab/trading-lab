@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b6-h4golden-solusdt",
+  "batch": "dt-batch6-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration",
+  "dataset_sha256": "3eddec8881cb1e01b950b2507127c91b3c4c2199a994b58662258bd1f165018d",
+  "engine": "hourly_nextbar_v1 aggregated bars, next-bar accounting",
+  "executed_at": "2026-09-21T11:16:17+03:00",
+  "family": "h4-golden",
+  "predeclaration": "predeclarations/BATCH6-2026-09-21-higher-timeframe-trend.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.4403894415301021,
+    "max_drawdown": -0.3723552178495092,
+    "n_days": 731,
+    "position_changes_per_day": 0.03146374829001368,
+    "psr": 0.8692639126881915,
+    "sharpe": 0.7881079549724942,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
