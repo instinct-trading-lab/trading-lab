@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b5-vwaprevg-btcusdt",
+  "batch": "dt-batch5-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines",
+  "dataset_sha256": "a5066e9c8bbff732c762d4bd7e3b62ba2501ead8c9310e66d9909fbdcf7237f7",
+  "engine": "hourly_nextbar_v1",
+  "executed_at": "2026-09-21T11:09:05+03:00",
+  "family": "vwaprev-gated",
+  "predeclaration": "predeclarations/BATCH5-2026-09-21-regime-gated-reversion.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.05823736721993245,
+    "max_drawdown": -0.18356640380912836,
+    "n_days": 731,
+    "position_changes_per_day": 0.2476060191518468,
+    "psr": 0.6436305790229183,
+    "sharpe": 0.2618905199596996,
+    "verdict": "FAIL"
+  },
+  "symbol": "BTCUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
