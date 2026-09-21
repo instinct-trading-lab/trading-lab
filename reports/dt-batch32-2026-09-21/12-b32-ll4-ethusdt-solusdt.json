@@ -1,0 +1,31 @@
+{
+  "attempt_id": "b32-ll4-ethusdt-solusdt",
+  "batch": "dt-batch32-2026-09-21",
+  "data_source": "Binance.US spot hourly (public archive), exploration window 2024-01-01/2025-12-31 UTC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "leadlag_v1",
+  "executed_at": "2026-09-21T16:22:00+03:00",
+  "family": "cross-asset-lead-lag",
+  "fee_per_position_change_bp": 5,
+  "follower": "SOLUSDT",
+  "leader": "ETHUSDT",
+  "lookback_hours": 4,
+  "predeclaration": "predeclarations/BATCH32-2026-09-21-leadlag.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": -1.0197802043886626,
+    "lookback_hours": 4,
+    "max_drawdown": -0.9248963827017701,
+    "n_days": 731,
+    "position_events": 4361,
+    "position_events_per_day": 5.965800273597811,
+    "psr": 0.0072367527432630075,
+    "sharpe": -1.7724156685887802,
+    "verdict": "FAIL"
+  },
+  "window": "2024-01-01/2025-12-31"
+}
