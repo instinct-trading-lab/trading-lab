@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b7-dailysma50ts-ethusdt",
+  "batch": "dt-batch7-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration (batch-6 dataset)",
+  "dataset_sha256": "1fee2bc1619001613ea48d7b8443fbf431d6de77bf8a5a6195cceb7390a5a590",
+  "engine": "hourly_nextbar_v1 aggregated bars, next-bar accounting",
+  "executed_at": "2026-09-21T11:19:46+03:00",
+  "family": "daily-sma50-ts",
+  "predeclaration": "predeclarations/BATCH7-2026-09-21-trend-trailing-stop.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.5185504159561555,
+    "max_drawdown": -0.38780829319395194,
+    "n_days": 731,
+    "position_changes_per_day": 0.047879616963064295,
+    "psr": 0.9576889996365243,
+    "sharpe": 1.1633008001060485,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
