@@ -1,0 +1,36 @@
+{
+  "attempt_id": "b18-donchian120x60-maker10bp-vol35-solusdt",
+  "batch": "dt-batch18-2026-09-21",
+  "data_source": "Binance.US hourly aggregated to complete UTC daily OHLC",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2023-11-01-2025-12-31.json": "5cb4b8c1dc632026b0634b264d3cc2698f0005637195ba561d5257370b7dfac6",
+    "ETHUSDT-1h-2023-11-01-2025-12-31.json": "46245552ab7173592c77e946722035473a9b73786e3b7d5a507adddcc1c18cd8",
+    "SOLUSDT-1h-2023-11-01-2025-12-31.json": "d044ab3e9e9a055108eb4183f7dd568e5d930159c833040ba0dc25256a059248"
+  },
+  "engine": "donchian_window_maker_entry_voltarget_v1",
+  "entry_fee_bp": 0,
+  "entry_offset_bp": 10,
+  "entry_window_days": 120,
+  "executed_at": "2026-09-21T14:23:00+03:00",
+  "exit_fee_bp": 5,
+  "exit_window_days": 60,
+  "family": "donchian-window-ladder",
+  "predeclaration": "predeclarations/BATCH18-2026-09-21-donchian-window-ladder.md",
+  "reproduction_match": true,
+  "resize_fee_bp": 5,
+  "stats": {
+    "ann_arith_return": 0.04266783449205533,
+    "entries": 2,
+    "exits": 2,
+    "max_drawdown": -0.24860029126265148,
+    "n_days": 731,
+    "position_events_per_day": 0.005471956224350205,
+    "psr": 0.5786168885589741,
+    "sharpe": 0.14019880411352895,
+    "verdict": "FAIL"
+  },
+  "symbol": "SOLUSDT",
+  "vol_lookback_days": 20,
+  "vol_target": 0.35,
+  "window": "2024-01-01/2025-12-31"
+}
