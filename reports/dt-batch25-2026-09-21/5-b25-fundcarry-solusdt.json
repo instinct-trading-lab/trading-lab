@@ -1,0 +1,43 @@
+{
+  "attempt_id": "b25-fundcarry-solusdt",
+  "batch": "dt-batch25-2026-09-21",
+  "data_source": "Binance.US spot hourly + Binance.com USD-M perp TRADE-price hourly and funding history (public archives)",
+  "dataset_sha256": {
+    "BTCUSDT-1h-2022-06-01-2025-12-31.json": "376bc2faf4dbe63791d3dcab79fb2fc21fea4c66c5171e24a40f11fc0ea0a4eb",
+    "ETHUSDT-1h-2022-06-01-2025-12-31.json": "0dfca5d771c59edc60153bf995138eaf0cb8769e911949b80a41c9b0de793002",
+    "SOLUSDT-1h-2022-06-01-2025-12-31.json": "76a748117b608b9d99779eb7253b7f68382b465690bd568e9dc066cb9b50d3f1"
+  },
+  "engine": "funding_carry_v1_tradeprice",
+  "executed_at": "2026-09-21T15:15:00+03:00",
+  "family": "funding-carry",
+  "fee_per_leg_bp": 5,
+  "funding_entry_threshold_per_8h": 0.0005,
+  "funding_exit_threshold_per_8h": 0.0001,
+  "funding_lookback_days": 7,
+  "funding_sha256": {
+    "BTCUSDT-funding-2023-09-01-2025-12-31.json": "3a05f6573621e75e763e08712a69d4654b13f19a864f52d3ebadcc5dae912827",
+    "ETHUSDT-funding-2023-09-01-2025-12-31.json": "aeb296b32cbe9b2d65b35c7f2853476f661cdc7abc8a1aaf6055dacd6d367a3c",
+    "SOLUSDT-funding-2023-09-01-2025-12-31.json": "d43e6dae30c0cccc056a6f3cd0150a461150193b9ac9fb8bfd3c14c917a47879"
+  },
+  "perp_sha256": {
+    "BTCUSDT-perptrade-1h-2023-12-01-2025-12-31.json": "459f92628228139e70eb9bc28f09ffd861e40eda80f5201feba4348570d7d80d",
+    "ETHUSDT-perptrade-1h-2023-12-01-2025-12-31.json": "1c3f2d97f9a4394858bba7183bf10ca61804ab8463df272d28b8080161a574c8",
+    "SOLUSDT-perptrade-1h-2023-12-01-2025-12-31.json": "b8709aad431c3d83d4ca75856f01ef9257c9f66af5c7f7fddde0198a99d24247"
+  },
+  "predeclaration": "predeclarations/BATCH25-2026-09-21-funding-carry-tradeprice.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.021471730374669762,
+    "entries": 1,
+    "exits": 1,
+    "funding_collected_total": 0.045392750000000016,
+    "max_drawdown": -0.006284042108493315,
+    "n_days": 731,
+    "position_events_per_day": 0.0027359781121751026,
+    "psr": 0.9825632081576282,
+    "sharpe": 1.3424304346796387,
+    "verdict": "PASS"
+  },
+  "symbol": "SOLUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
