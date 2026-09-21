@@ -1,6 +1,6 @@
 # Batch 21: long-short time-series momentum (short-side falsification)
 
-Predeclaration committed before execution as its predeclaration commit on `main-pipeline`. Six attempts gave the batch-19 momentum signal a symmetric short side with deliberately free shorts (no borrow or funding), 2024-2025 exploration only. Independent output matched byte for byte.
+Predeclaration committed before execution as `4c0ec55`. Six attempts gave the batch-19 momentum signal a symmetric short side with deliberately free shorts (no borrow or funding), 2024-2025 exploration only. Independent output matched byte for byte.
 
 | Attempt | Annualized return | Sharpe | Max drawdown | PSR | Verdict |
 |---|---:|---:|---:|---:|---|
