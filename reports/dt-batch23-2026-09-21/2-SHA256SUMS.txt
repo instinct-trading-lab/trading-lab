@@ -1,0 +1,3 @@
+d8f0921fcc8dd63553992b0cbb76d46a4c7508e6c4eaa8d5e8ca233f48bae78d  3-b23-fundgate-tsmom364-vol35-btcusdt.json
+16b2dd41cedb5475a400bb8d7aecb8a6af1d58f6bff1e027f35fd9443ff03fec  4-b23-fundgate-tsmom364-vol35-ethusdt.json
+c4701d06584dd7777c85c37e0f8b8418d81568734825f3bfc4fe08b2989a72f7  5-b23-fundgate-tsmom364-vol35-solusdt.json
