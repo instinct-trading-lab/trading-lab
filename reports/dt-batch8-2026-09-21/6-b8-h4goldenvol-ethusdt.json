@@ -1,0 +1,23 @@
+{
+  "attempt_id": "b8-h4goldenvol-ethusdt",
+  "batch": "dt-batch8-2026-09-21",
+  "cost_bp_per_change": 5,
+  "data_source": "Binance.US public hourly klines aggregated per predeclaration (batch-6 dataset)",
+  "dataset_sha256": "1fee2bc1619001613ea48d7b8443fbf431d6de77bf8a5a6195cceb7390a5a590",
+  "engine": "hourly_nextbar_v1 aggregated bars, fractional exposure, next-bar accounting",
+  "executed_at": "2026-09-21T11:24:17+03:00",
+  "family": "h4-golden-vol",
+  "predeclaration": "predeclarations/BATCH8-2026-09-21-vol-scaled-trend.md",
+  "reproduction_match": true,
+  "stats": {
+    "ann_arith_return": 0.27395632526884955,
+    "max_drawdown": -0.38654490522506635,
+    "n_days": 731,
+    "position_changes_per_day": 0.04377564979480164,
+    "psr": 0.8573646259971794,
+    "sharpe": 0.738441580093984,
+    "verdict": "FAIL"
+  },
+  "symbol": "ETHUSDT",
+  "window": "2024-01-01/2025-12-31"
+}
